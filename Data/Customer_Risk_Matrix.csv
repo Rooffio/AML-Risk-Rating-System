@@ -1,0 +1,32 @@
+Category,Lookup_Key,Weight,Low_Risk_Criteria (Score 1-3),Med_Risk_Criteria (Score 4-6),High_Risk_Criteria (Score 7-10),Rationale
+Identity & Onboarding,customer_type,1.0,Individual,Sole trader / Partnership / Company,Trust / Foundation / NGO / Shell Bank,Legal complexity obscures beneficial ownership.
+Identity & Onboarding,onboarding_channel,0.8,Score from Delivery_Channels.json (Low),Score from Delivery_Channels.json (Medium),Score from Delivery_Channels.json (High),Links directly to your Delivery Channel Risk engine.
+Identity & Onboarding,verification_strength,1.0,Biometric + Gov ID,Government ID verified,Document quality issues / Staged,Strength of identity binding vs synthetic risk.
+Identity & Onboarding,digital_footprint_risk,0.7,Trusted Device/IP,New Device / VPN,IP or Geo Mismatch / Disposable Email,Digital obfuscation suggests illicit intent.
+Identity & Onboarding,opening_speed,0.5,Staged / Manual review,Standard automated,Instant onboarding,High speed limits detection windows.
+Profile & Background,industry_risk,1.2,Professional services / Gov,High-cash retail / Hospitality,High-value goods / Crypto / Real Estate,Susceptibility to placement of illicit cash.
+Profile & Background,pep_status,1.5,None,Domestic PEP / Relative (RCA),Foreign PEP / Senior Official / Immunity,Power over public funds increases corruption risk.
+Profile & Background,adverse_media,1.5,None / Clear,Minor Litigation / Civil,Sanctions / Criminal hits / Regulatory action,History of non-compliance or criminal association.
+Profile & Background,vulnerability_category,1.0,Resident National,Nonresident alien (NRA),NGO in conflict zone / Shell Bank,Specific vulnerabilities to TF or flight.
+Ownership & Structure,entity_complexity,1.2,Direct Ownership (1 layer),1-2 Ownership layers,3+ Layers / Trust or Foundation used,Complex structures are used to hide UBOs.
+Ownership & Structure,ubo_clarity,1.5,UBO identified & verified,Verified via Registry,Nominee directors / Opaque / Bearer Shares,Lack of transparency on control.
+Ownership & Structure,jurisdiction_of_inc,1.2,Score from Country_Risk_Rating.json (Low),Score from Country_Risk_Rating.json (Medium),Score from Country_Risk_Rating.json (High),Links directly to your Country Risk engine.
+Funds & Movement,sow_verification,1.3,Verified Salary / Direct Doc,Mixed / Declared,Unverifiable / 3rd Party / High Value,Inability to prove wealth origin.
+Funds & Movement,sof_verification,1.1,Bank-to-Bank transfer,Mixed cash & digital,High cash usage / Unrelated 3rd party,Clarity on the origin of specific incoming funds.
+Funds & Movement,funding_patterns,1.0,Regular self-funding,Occasional 3rd party,Frequent unrelated parties / High volume,Obscurity of the source of incoming funds.
+Funds & Movement,high_value_tx_risk,1.2,Normal for profile,Occasional large tx,Frequent large deposits vs profile,Capacity for large scale laundering.
+Transactional Behavior,activity_expected_profile,1.0,Matches Peer Group,Minor deviation,Sudden Spikes / Round-tripping / Rapid flows,Anomalous behavior vs stated purpose.
+Transactional Behavior,counterparty_risk,1.3,Trusted / Local counterparties,Occasional opaque entities,High-risk or Opaque counterparties,Risk of being part of a larger laundering web.
+Transactional Behavior,structuring_risk,1.4,Natural patterns,Near-threshold activity,Smurfing / Repeated threshold avoidance,Intentional bypassing of reporting requirements.
+Transactional Behavior,asset_conversion_risk,1.3,Low / Savings,Occasional high-value goods,Frequent Crypto / Precious Metals / NFTs,Ease of layering via liquid assets.
+Geography & Jurisdiction,residency_risk,1.4,Score from Country_Risk_Rating.json (Low),Score from Country_Risk_Rating.json (Medium),Score from Country_Risk_Rating.json (High),Links directly to your Country Risk engine.
+Geography & Jurisdiction,tx_corridor_risk,1.1,Domestic only,Regional / Known,High-risk cross-border corridors,Frequent flows to opaque or high-crime regions.
+Geography & Jurisdiction,tax_reporting_risk,0.8,Single Tax Residency,Dual Residency,Multiple / CRS-FATCA high exposure,Risk of tax evasion or complex fiscal structures.
+Products & Tech,products_used,1.3,Score from Product_Risk_Rating.json (Low),Score from Product_Risk_Rating.json (Medium),Score from Product_Risk_Rating.json (High),Links directly to your Product Risk engine.
+Products & Tech,new_tech_usage,1.2,Standard banking,Occasional FinTech,Crypto / DeFi / NFTs / Tokenization,Novel technology increases anonymity.
+Controls & Quality,kyc_quality,1.0,Full docs / Verified sources,Standard capture,Missing docs / Expired ID / Override,Operational weakness in data collection.
+Controls & Quality,edd_status,1.2,Documented & Updated,Triggered,Not performed for High Risk,Enhanced checks are mandatory for high-risk.
+Controls & Quality,sanctions_screening,1.5,Real-time Automated,Periodic / Manual,No automated screening,Failure to detect hits against global watchlists.
+Monitoring & Review,tm_coverage,1.1,Comprehensive Rules,Basic Thresholds,No automated monitoring,Detection gap for suspicious patterns.
+Monitoring & Review,alert_triage_quality,1.0,Timely & Documented,Backlogged,Incomplete investigations,Effectiveness of the secondary defense line.
+Monitoring & Review,periodic_review_cadence,0.8,Risk-based / Frequent,Standard 2-year,Overdue / No policy,Keeping customer data fresh and relevant.

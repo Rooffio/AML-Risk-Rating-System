@@ -1,0 +1,161 @@
+{
+  "risk_factors": {
+    "RF_Anonymity": {
+      "weight": 5,
+      "label": "Anonymity / Pseudonymity",
+      "rationale": "Primary enabler of ML/TF; FATF flags this as a highest concern factor."
+    },
+    "RF_3rd_Party_Pay": {
+      "weight": 4,
+      "label": "Third-Party Funding",
+      "rationale": "Obscures beneficial ownership and source of funds; high risk for layering."
+    },
+    "RF_Bearer": {
+      "weight": 5,
+      "label": "Bearer Instrument",
+      "rationale": "Bearer instruments are effectively untraceable and treated as critical risk."
+    },
+    "RF_Pooled": {
+      "weight": 4,
+      "label": "Pooled/Nominee Accounts",
+      "rationale": "Obscures individual flows and beneficiaries; high layering risk."
+    },
+    "RF_Instant": {
+      "weight": 4,
+      "label": "Instant/Real-time Rails",
+      "rationale": "Reduces time for controls and reporting; high velocity risk."
+    },
+    "RF_Cross_Border": {
+      "weight": 5,
+      "label": "Cross-Border Capability",
+      "rationale": "Increases jurisdictional complexity and sanctions circumvention risk."
+    },
+    "RF_High_Value": {
+      "weight": 5,
+      "label": "High Transaction Capacity",
+      "rationale": "Large value capacity magnifies ML impact; critical for rating scaling."
+    },
+    "RF_24_7": {
+      "weight": 4,
+      "label": "24/7 Operations",
+      "rationale": "Always-on systems limit manual intervention windows by compliance staff."
+    },
+    "RF_Cash_In": {
+      "weight": 5,
+      "label": "Physical Cash Placement",
+      "rationale": "Cash remains a top ML vulnerability during the placement phase."
+    },
+    "RF_Cash_Out": {
+      "weight": 5,
+      "label": "Physical Cash Extraction",
+      "rationale": "Easy extraction of value is a critical control gap for laundering cycles."
+    },
+    "RF_Asset_Conv": {
+      "weight": 4,
+      "label": "Asset Conversion",
+      "rationale": "Conversion to gold, crypto, or vouchers facilitates layering."
+    },
+    "RF_Audit_Gap": {
+      "weight": 5,
+      "label": "Audit Trail Gaps",
+      "rationale": "Lack of immutable trails makes forensic investigations nearly infeasible."
+    },
+    "RF_Complexity": {
+      "weight": 4,
+      "label": "Product Complexity",
+      "rationale": "Multi-party/intermediary flows increase opacity and monitoring difficulty."
+    },
+    "RF_Low_Reg": {
+      "weight": 4,
+      "label": "Regulatory Arbitrage",
+      "rationale": "Operating in lightly regulated spaces or offshore increases systemic risk."
+    },
+    "RF_Easy_Onboard": {
+      "weight": 4,
+      "label": "Low-Friction Onboarding",
+      "rationale": "Low barriers to entry increase the likelihood of account misuse."
+    },
+    "RF_Remote": {
+      "weight": 4,
+      "label": "Non-Face-to-Face Access",
+      "rationale": "Remote access raises identity spoofing and verification challenges."
+    },
+    "RF_Agent": {
+      "weight": 3,
+      "label": "Agent Networks",
+      "rationale": "Adds cash access risk but can be mitigated via agent-level oversight."
+    },
+    "RF_Flexibility": {
+      "weight": 4,
+      "label": "Product Flexibility",
+      "rationale": "High transferability between rails increases laundering layering options."
+    },
+    "RF_New_Tech": {
+      "weight": 4,
+      "label": "Emerging Technology",
+      "rationale": "Blockchain and tokenization bring novel anonymity and traceability issues."
+    }
+  },
+  "mitigating_factors": {
+    "MF_KYC": {
+      "weight": 5,
+      "label": "Basic KYC / CDD",
+      "rationale": "Identity verification prevents anonymous accounts; highly effective if mandatory."
+    },
+    "MF_EDD": {
+      "weight": 5,
+      "label": "Enhanced Due Diligence",
+      "rationale": "Critical for high-risk cohorts (PEPs); materially reduces risk of high-value misuse."
+    },
+    "MF_SoW_SoF": {
+      "weight": 4,
+      "label": "Source of Wealth/Funds",
+      "rationale": "Addresses layering/integration; highly effective for large private banking flows."
+    },
+    "MF_Usage_Limits": {
+      "weight": 4,
+      "label": "Transaction/Balance Caps",
+      "rationale": "Practical and effective at limiting the placement scale of illicit funds."
+    },
+    "MF_Velocity_Ctrl": {
+      "weight": 4,
+      "label": "Velocity Throttling",
+      "rationale": "Slows suspicious flows, enabling manual review of instant rails."
+    },
+    "MF_Geo_Fence": {
+      "weight": 4,
+      "label": "Geographic Restrictions",
+      "rationale": "Enforces sanctions and blocks high-risk corridors; prevents cross-border leakage."
+    },
+    "MF_Cash_Cap": {
+      "weight": 5,
+      "label": "Cash Reporting & Caps",
+      "rationale": "Directly mitigates placement risk; effective for cash-heavy operations."
+    },
+    "MF_Audit_Trail": {
+      "weight": 5,
+      "label": "Immutable Audit Trail",
+      "rationale": "Essential for investigations and SAR filings; provides record retention."
+    },
+    "MF_Tx_Monitor": {
+      "weight": 5,
+      "label": "Automated Transaction Monitoring",
+      "rationale": "Core detection control; identifies patterns of suspicious behavior programmatically."
+    },
+    "MF_MFA": {
+      "weight": 3,
+      "label": "Multi-Factor Authentication",
+      "rationale": "Reduces account takeover fraud; secondary AML benefit for remote access."
+    },
+    "MF_Agent_Onboard": {
+      "weight": 4,
+      "label": "Agent Oversight",
+      "rationale": "Strong agent KYC and training reduces risk in physical retail networks."
+    },
+    "MF_Closed_Loop": {
+      "weight": 4,
+      "label": "Closed Ecosystem",
+      "rationale": "Restricting convertibility or external rails reduces laundering exit paths."
+    }
+  }
+}

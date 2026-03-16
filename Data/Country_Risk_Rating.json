@@ -1,0 +1,3252 @@
+{
+    "Afghanistan": {
+        "iso_alpha3": "AFG",
+        "region": "Asia",
+        "risk_score": 6.7,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.7,
+            "basel_score": 5.0,
+            "raw_cpi": 16,
+            "normalized_cpi": 8.4
+        }
+    },
+    "Albania": {
+        "iso_alpha3": "ALB",
+        "region": "Europe",
+        "risk_score": 5.23,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.23,
+            "basel_score": 4.36,
+            "raw_cpi": 39,
+            "normalized_cpi": 6.1
+        }
+    },
+    "Algeria": {
+        "iso_alpha3": "DZA",
+        "region": "Africa",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 6.82,
+            "raw_cpi": 34,
+            "normalized_cpi": 6.6
+        }
+    },
+    "American Samoa": {
+        "iso_alpha3": "ASM",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Andorra": {
+        "iso_alpha3": "AND",
+        "region": "Europe",
+        "risk_score": 4.24,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.24,
+            "basel_score": 3.48,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Angola": {
+        "iso_alpha3": "AGO",
+        "region": "Africa",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 6.55,
+            "raw_cpi": 32,
+            "normalized_cpi": 6.8
+        }
+    },
+    "Anguilla": {
+        "iso_alpha3": "AIA",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Antarctica": {
+        "iso_alpha3": "ATA",
+        "region": "",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Antigua and Barbuda": {
+        "iso_alpha3": "ATG",
+        "region": "Americas",
+        "risk_score": 4.49,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.49,
+            "basel_score": 3.98,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Argentina": {
+        "iso_alpha3": "ARG",
+        "region": "Americas",
+        "risk_score": 5.42,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.42,
+            "basel_score": 4.44,
+            "raw_cpi": 36,
+            "normalized_cpi": 6.4
+        }
+    },
+    "Armenia": {
+        "iso_alpha3": "ARM",
+        "region": "Asia",
+        "risk_score": 4.69,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.69,
+            "basel_score": 3.98,
+            "raw_cpi": 46,
+            "normalized_cpi": 5.4
+        }
+    },
+    "Aruba": {
+        "iso_alpha3": "ABW",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Australia": {
+        "iso_alpha3": "AUS",
+        "region": "Oceania",
+        "risk_score": 3.26,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.26,
+            "basel_score": 4.13,
+            "raw_cpi": 76,
+            "normalized_cpi": 2.4
+        }
+    },
+    "Austria": {
+        "iso_alpha3": "AUT",
+        "region": "Europe",
+        "risk_score": 3.69,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.69,
+            "basel_score": 4.28,
+            "raw_cpi": 69,
+            "normalized_cpi": 3.1
+        }
+    },
+    "Azerbaijan": {
+        "iso_alpha3": "AZE",
+        "region": "Asia",
+        "risk_score": 6.23,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.23,
+            "basel_score": 5.46,
+            "raw_cpi": 30,
+            "normalized_cpi": 7.0
+        }
+    },
+    "Bahamas": {
+        "iso_alpha3": "BHS",
+        "region": "Americas",
+        "risk_score": 4.34,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.34,
+            "basel_score": 5.08,
+            "raw_cpi": 64,
+            "normalized_cpi": 3.6
+        }
+    },
+    "Bahrain": {
+        "iso_alpha3": "BHR",
+        "region": "Asia",
+        "risk_score": 5.08,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.08,
+            "basel_score": 5.16,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Bangladesh": {
+        "iso_alpha3": "BGD",
+        "region": "Asia",
+        "risk_score": 6.61,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.61,
+            "basel_score": 5.62,
+            "raw_cpi": 24,
+            "normalized_cpi": 7.6
+        }
+    },
+    "Barbados": {
+        "iso_alpha3": "BRB",
+        "region": "Americas",
+        "risk_score": 4.05,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.05,
+            "basel_score": 4.91,
+            "raw_cpi": 68,
+            "normalized_cpi": 3.2
+        }
+    },
+    "Belarus": {
+        "iso_alpha3": "BLR",
+        "region": "Europe",
+        "risk_score": 6.3,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.3,
+            "basel_score": 5.7,
+            "raw_cpi": 31,
+            "normalized_cpi": 6.9
+        }
+    },
+    "Belgium": {
+        "iso_alpha3": "BEL",
+        "region": "Europe",
+        "risk_score": 3.78,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.78,
+            "basel_score": 4.46,
+            "raw_cpi": 69,
+            "normalized_cpi": 3.1
+        }
+    },
+    "Belize": {
+        "iso_alpha3": "BLZ",
+        "region": "Americas",
+        "risk_score": 5.23,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.23,
+            "basel_score": 4.06,
+            "raw_cpi": 36,
+            "normalized_cpi": 6.4
+        }
+    },
+    "Benin": {
+        "iso_alpha3": "BEN",
+        "region": "Africa",
+        "risk_score": 5.92,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.92,
+            "basel_score": 6.33,
+            "raw_cpi": 45,
+            "normalized_cpi": 5.5
+        }
+    },
+    "Bermuda": {
+        "iso_alpha3": "BMU",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Bhutan": {
+        "iso_alpha3": "BTN",
+        "region": "Asia",
+        "risk_score": 4.2,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.2,
+            "basel_score": 5.49,
+            "raw_cpi": 71,
+            "normalized_cpi": 2.9
+        }
+    },
+    "Bolivia": {
+        "iso_alpha3": "BOL",
+        "region": "Americas",
+        "risk_score": 9.59,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 9.59,
+            "basel_score": 5.58,
+            "raw_cpi": 28,
+            "normalized_cpi": 7.2
+        }
+    },
+    "Bonaire, Sint Eustatius and Saba": {
+        "iso_alpha3": "BES",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Bosnia and Herzegovina": {
+        "iso_alpha3": "BIH",
+        "region": "Europe",
+        "risk_score": 6.07,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.07,
+            "basel_score": 5.54,
+            "raw_cpi": 34,
+            "normalized_cpi": 6.6
+        }
+    },
+    "Botswana": {
+        "iso_alpha3": "BWA",
+        "region": "Africa",
+        "risk_score": 4.16,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.16,
+            "basel_score": 4.12,
+            "raw_cpi": 58,
+            "normalized_cpi": 4.2
+        }
+    },
+    "Bouvet Island": {
+        "iso_alpha3": "BVT",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Brazil": {
+        "iso_alpha3": "BRA",
+        "region": "Americas",
+        "risk_score": 5.95,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.95,
+            "basel_score": 5.4,
+            "raw_cpi": 35,
+            "normalized_cpi": 6.5
+        }
+    },
+    "British Indian Ocean Territory": {
+        "iso_alpha3": "IOT",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Brunei Darussalam": {
+        "iso_alpha3": "BRN",
+        "region": "Asia",
+        "risk_score": 3.96,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.96,
+            "basel_score": 4.22,
+            "raw_cpi": 63,
+            "normalized_cpi": 3.7
+        }
+    },
+    "Bulgaria": {
+        "iso_alpha3": "BGR",
+        "region": "Europe",
+        "risk_score": 8.25,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 8.25,
+            "basel_score": 5.0,
+            "raw_cpi": 40,
+            "normalized_cpi": 6.0
+        }
+    },
+    "Burkina Faso": {
+        "iso_alpha3": "BFA",
+        "region": "Africa",
+        "risk_score": 5.88,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.88,
+            "basel_score": 5.75,
+            "raw_cpi": 40,
+            "normalized_cpi": 6.0
+        }
+    },
+    "Burundi": {
+        "iso_alpha3": "BDI",
+        "region": "Africa",
+        "risk_score": 6.65,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.65,
+            "basel_score": 5.0,
+            "raw_cpi": 17,
+            "normalized_cpi": 8.3
+        }
+    },
+    "Cambodia": {
+        "iso_alpha3": "KHM",
+        "region": "Asia",
+        "risk_score": 7.36,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.36,
+            "basel_score": 6.72,
+            "raw_cpi": 20,
+            "normalized_cpi": 8.0
+        }
+    },
+    "Cameroon": {
+        "iso_alpha3": "CMR",
+        "region": "Africa",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 6.41,
+            "raw_cpi": 26,
+            "normalized_cpi": 7.4
+        }
+    },
+    "Canada": {
+        "iso_alpha3": "CAN",
+        "region": "Americas",
+        "risk_score": 3.56,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.56,
+            "basel_score": 4.61,
+            "raw_cpi": 75,
+            "normalized_cpi": 2.5
+        }
+    },
+    "Cape Verde": {
+        "iso_alpha3": "CPV",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Cayman Islands": {
+        "iso_alpha3": "CYM",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Central African Republic": {
+        "iso_alpha3": "CAF",
+        "region": "Africa",
+        "risk_score": 7.52,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.52,
+            "basel_score": 7.44,
+            "raw_cpi": 24,
+            "normalized_cpi": 7.6
+        }
+    },
+    "Chad": {
+        "iso_alpha3": "TCD",
+        "region": "Africa",
+        "risk_score": 7.68,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.68,
+            "basel_score": 7.56,
+            "raw_cpi": 22,
+            "normalized_cpi": 7.8
+        }
+    },
+    "Chile": {
+        "iso_alpha3": "CHL",
+        "region": "Americas",
+        "risk_score": 3.99,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.99,
+            "basel_score": 4.28,
+            "raw_cpi": 63,
+            "normalized_cpi": 3.7
+        }
+    },
+    "China": {
+        "iso_alpha3": "CHN",
+        "region": "Asia",
+        "risk_score": 6.48,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.48,
+            "basel_score": 7.26,
+            "raw_cpi": 43,
+            "normalized_cpi": 5.7
+        }
+    },
+    "Christmas Island": {
+        "iso_alpha3": "CXR",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Cocos (Keeling) Islands": {
+        "iso_alpha3": "CCK",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Colombia": {
+        "iso_alpha3": "COL",
+        "region": "Americas",
+        "risk_score": 5.67,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.67,
+            "basel_score": 5.05,
+            "raw_cpi": 37,
+            "normalized_cpi": 6.3
+        }
+    },
+    "Comoros": {
+        "iso_alpha3": "COM",
+        "region": "Africa",
+        "risk_score": 7.33,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.33,
+            "basel_score": 6.67,
+            "raw_cpi": 20,
+            "normalized_cpi": 8.0
+        }
+    },
+    "Congo": {
+        "iso_alpha3": "COG",
+        "region": "Africa",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 7.27,
+            "raw_cpi": 20,
+            "normalized_cpi": 8.0
+        }
+    },
+    "Cook Islands": {
+        "iso_alpha3": "COK",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Costa Rica": {
+        "iso_alpha3": "CRI",
+        "region": "Americas",
+        "risk_score": 4.69,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.69,
+            "basel_score": 4.97,
+            "raw_cpi": 56,
+            "normalized_cpi": 4.4
+        }
+    },
+    "Croatia": {
+        "iso_alpha3": "HRV",
+        "region": "Europe",
+        "risk_score": 4.74,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.74,
+            "basel_score": 4.18,
+            "raw_cpi": 47,
+            "normalized_cpi": 5.3
+        }
+    },
+    "Cuba": {
+        "iso_alpha3": "CUB",
+        "region": "Americas",
+        "risk_score": 5.58,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.58,
+            "basel_score": 5.16,
+            "raw_cpi": 40,
+            "normalized_cpi": 6.0
+        }
+    },
+    "Cura\u00e7ao": {
+        "iso_alpha3": "CUW",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Cyprus": {
+        "iso_alpha3": "CYP",
+        "region": "Asia",
+        "risk_score": 4.63,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.63,
+            "basel_score": 4.77,
+            "raw_cpi": 55,
+            "normalized_cpi": 4.5
+        }
+    },
+    "Czech Republic": {
+        "iso_alpha3": "CZE",
+        "region": "Europe",
+        "risk_score": 3.96,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.96,
+            "basel_score": 3.82,
+            "raw_cpi": 59,
+            "normalized_cpi": 4.1
+        }
+    },
+    "C\u00f4te D'Ivoire": {
+        "iso_alpha3": "CIV",
+        "region": "Africa",
+        "risk_score": 8.81,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 8.81,
+            "basel_score": 6.05,
+            "raw_cpi": 43,
+            "normalized_cpi": 5.7
+        }
+    },
+    "Denmark": {
+        "iso_alpha3": "DNK",
+        "region": "Europe",
+        "risk_score": 2.14,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 2.14,
+            "basel_score": 3.18,
+            "raw_cpi": 89,
+            "normalized_cpi": 1.1
+        }
+    },
+    "Djibouti": {
+        "iso_alpha3": "DJI",
+        "region": "Africa",
+        "risk_score": 6.92,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.92,
+            "basel_score": 6.93,
+            "raw_cpi": 31,
+            "normalized_cpi": 6.9
+        }
+    },
+    "Dominica": {
+        "iso_alpha3": "DMA",
+        "region": "Americas",
+        "risk_score": 4.08,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.08,
+            "basel_score": 4.17,
+            "raw_cpi": 60,
+            "normalized_cpi": 4.0
+        }
+    },
+    "Dominican Republic": {
+        "iso_alpha3": "DOM",
+        "region": "Americas",
+        "risk_score": 5.69,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.69,
+            "basel_score": 5.08,
+            "raw_cpi": 37,
+            "normalized_cpi": 6.3
+        }
+    },
+    "Ecuador": {
+        "iso_alpha3": "ECU",
+        "region": "Americas",
+        "risk_score": 5.8,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.8,
+            "basel_score": 4.91,
+            "raw_cpi": 33,
+            "normalized_cpi": 6.7
+        }
+    },
+    "Egypt": {
+        "iso_alpha3": "EGY",
+        "region": "Africa",
+        "risk_score": 6.11,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.11,
+            "basel_score": 5.22,
+            "raw_cpi": 30,
+            "normalized_cpi": 7.0
+        }
+    },
+    "El Salvador": {
+        "iso_alpha3": "SLV",
+        "region": "Americas",
+        "risk_score": 6.22,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.22,
+            "basel_score": 5.65,
+            "raw_cpi": 32,
+            "normalized_cpi": 6.8
+        }
+    },
+    "Equatorial Guinea": {
+        "iso_alpha3": "GNQ",
+        "region": "Africa",
+        "risk_score": 8.03,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 8.03,
+            "basel_score": 7.55,
+            "raw_cpi": 15,
+            "normalized_cpi": 8.5
+        }
+    },
+    "Eritrea": {
+        "iso_alpha3": "ERI",
+        "region": "Africa",
+        "risk_score": 6.85,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.85,
+            "basel_score": 5.0,
+            "raw_cpi": 13,
+            "normalized_cpi": 8.7
+        }
+    },
+    "Estonia": {
+        "iso_alpha3": "EST",
+        "region": "Europe",
+        "risk_score": 2.83,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 2.83,
+            "basel_score": 3.25,
+            "raw_cpi": 76,
+            "normalized_cpi": 2.4
+        }
+    },
+    "Ethiopia": {
+        "iso_alpha3": "ETH",
+        "region": "Africa",
+        "risk_score": 5.94,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.94,
+            "basel_score": 5.68,
+            "raw_cpi": 38,
+            "normalized_cpi": 6.2
+        }
+    },
+    "European Union": {
+        "iso_alpha3": "",
+        "region": "",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Falkland Islands (Malvinas)": {
+        "iso_alpha3": "FLK",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Faroe Islands": {
+        "iso_alpha3": "FRO",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Fiji": {
+        "iso_alpha3": "FJI",
+        "region": "Oceania",
+        "risk_score": 4.62,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.62,
+            "basel_score": 4.73,
+            "raw_cpi": 55,
+            "normalized_cpi": 4.5
+        }
+    },
+    "Finland": {
+        "iso_alpha3": "FIN",
+        "region": "Europe",
+        "risk_score": 2.11,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 2.11,
+            "basel_score": 3.03,
+            "raw_cpi": 88,
+            "normalized_cpi": 1.2
+        }
+    },
+    "France": {
+        "iso_alpha3": "FRA",
+        "region": "Europe",
+        "risk_score": 3.7,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.7,
+            "basel_score": 3.99,
+            "raw_cpi": 66,
+            "normalized_cpi": 3.4
+        }
+    },
+    "French Guiana": {
+        "iso_alpha3": "GUF",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "French Polynesia": {
+        "iso_alpha3": "PYF",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "French Southern Territories": {
+        "iso_alpha3": "ATF",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Gabon": {
+        "iso_alpha3": "GAB",
+        "region": "Africa",
+        "risk_score": 7.28,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.28,
+            "basel_score": 7.46,
+            "raw_cpi": 29,
+            "normalized_cpi": 7.1
+        }
+    },
+    "Gambia": {
+        "iso_alpha3": "GMB",
+        "region": "Africa",
+        "risk_score": 6.03,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.03,
+            "basel_score": 5.76,
+            "raw_cpi": 37,
+            "normalized_cpi": 6.3
+        }
+    },
+    "Georgia": {
+        "iso_alpha3": "GEO",
+        "region": "Asia",
+        "risk_score": 4.66,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.66,
+            "basel_score": 4.32,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Germany": {
+        "iso_alpha3": "DEU",
+        "region": "Europe",
+        "risk_score": 3.63,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.63,
+            "basel_score": 4.97,
+            "raw_cpi": 77,
+            "normalized_cpi": 2.3
+        }
+    },
+    "Ghana": {
+        "iso_alpha3": "GHA",
+        "region": "Africa",
+        "risk_score": 5.42,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.42,
+            "basel_score": 5.13,
+            "raw_cpi": 43,
+            "normalized_cpi": 5.7
+        }
+    },
+    "Gibraltar": {
+        "iso_alpha3": "GIB",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Greece": {
+        "iso_alpha3": "GRC",
+        "region": "Europe",
+        "risk_score": 4.5,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.5,
+            "basel_score": 3.99,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Greenland": {
+        "iso_alpha3": "GRL",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Grenada": {
+        "iso_alpha3": "GRD",
+        "region": "Americas",
+        "risk_score": 4.62,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.62,
+            "basel_score": 4.85,
+            "raw_cpi": 56,
+            "normalized_cpi": 4.4
+        }
+    },
+    "Guadeloupe": {
+        "iso_alpha3": "GLP",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Guam": {
+        "iso_alpha3": "GUM",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Guatemala": {
+        "iso_alpha3": "GTM",
+        "region": "Americas",
+        "risk_score": 6.42,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.42,
+            "basel_score": 5.44,
+            "raw_cpi": 26,
+            "normalized_cpi": 7.4
+        }
+    },
+    "Guernsey": {
+        "iso_alpha3": "GGY",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Guinea": {
+        "iso_alpha3": "GIN",
+        "region": "Africa",
+        "risk_score": 6.92,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.92,
+            "basel_score": 6.43,
+            "raw_cpi": 26,
+            "normalized_cpi": 7.4
+        }
+    },
+    "Guinea-Bissau": {
+        "iso_alpha3": "GNB",
+        "region": "Africa",
+        "risk_score": 7.6,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.6,
+            "basel_score": 7.3,
+            "raw_cpi": 21,
+            "normalized_cpi": 7.9
+        }
+    },
+    "Guyana": {
+        "iso_alpha3": "GUY",
+        "region": "Americas",
+        "risk_score": 5.58,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.58,
+            "basel_score": 5.16,
+            "raw_cpi": 40,
+            "normalized_cpi": 6.0
+        }
+    },
+    "Haiti": {
+        "iso_alpha3": "HTI",
+        "region": "Americas",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 8.12,
+            "raw_cpi": 16,
+            "normalized_cpi": 8.4
+        }
+    },
+    "Heard Island and Mcdonald Islands": {
+        "iso_alpha3": "HMD",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Honduras": {
+        "iso_alpha3": "HND",
+        "region": "Americas",
+        "risk_score": 6.73,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.73,
+            "basel_score": 5.66,
+            "raw_cpi": 22,
+            "normalized_cpi": 7.8
+        }
+    },
+    "Hong Kong": {
+        "iso_alpha3": "HKG",
+        "region": "Asia",
+        "risk_score": 3.88,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.88,
+            "basel_score": 5.37,
+            "raw_cpi": 76,
+            "normalized_cpi": 2.4
+        }
+    },
+    "Hungary": {
+        "iso_alpha3": "HUN",
+        "region": "Europe",
+        "risk_score": 5.58,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.58,
+            "basel_score": 5.16,
+            "raw_cpi": 40,
+            "normalized_cpi": 6.0
+        }
+    },
+    "Iceland": {
+        "iso_alpha3": "ISL",
+        "region": "Europe",
+        "risk_score": 2.67,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 2.67,
+            "basel_score": 3.04,
+            "raw_cpi": 77,
+            "normalized_cpi": 2.3
+        }
+    },
+    "India": {
+        "iso_alpha3": "IND",
+        "region": "Asia",
+        "risk_score": 5.88,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.88,
+            "basel_score": 5.66,
+            "raw_cpi": 39,
+            "normalized_cpi": 6.1
+        }
+    },
+    "Indonesia": {
+        "iso_alpha3": "IDN",
+        "region": "Asia",
+        "risk_score": 6.06,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.06,
+            "basel_score": 5.52,
+            "raw_cpi": 34,
+            "normalized_cpi": 6.6
+        }
+    },
+    "Iran": {
+        "iso_alpha3": "IRN",
+        "region": "Asia",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Black_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 5.0,
+            "raw_cpi": 23,
+            "normalized_cpi": 7.7
+        }
+    },
+    "Iraq": {
+        "iso_alpha3": "IRQ",
+        "region": "Asia",
+        "risk_score": 6.55,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.55,
+            "basel_score": 5.9,
+            "raw_cpi": 28,
+            "normalized_cpi": 7.2
+        }
+    },
+    "Ireland": {
+        "iso_alpha3": "IRL",
+        "region": "Europe",
+        "risk_score": 3.4,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.4,
+            "basel_score": 4.4,
+            "raw_cpi": 76,
+            "normalized_cpi": 2.4
+        }
+    },
+    "Isle of Man": {
+        "iso_alpha3": "IMN",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Israel": {
+        "iso_alpha3": "ISR",
+        "region": "Asia",
+        "risk_score": 3.93,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.93,
+            "basel_score": 4.06,
+            "raw_cpi": 62,
+            "normalized_cpi": 3.8
+        }
+    },
+    "Italy": {
+        "iso_alpha3": "ITA",
+        "region": "Europe",
+        "risk_score": 4.73,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.73,
+            "basel_score": 4.76,
+            "raw_cpi": 53,
+            "normalized_cpi": 4.7
+        }
+    },
+    "Jamaica": {
+        "iso_alpha3": "JAM",
+        "region": "Americas",
+        "risk_score": 5.19,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.19,
+            "basel_score": 4.78,
+            "raw_cpi": 44,
+            "normalized_cpi": 5.6
+        }
+    },
+    "Japan": {
+        "iso_alpha3": "JPN",
+        "region": "Asia",
+        "risk_score": 3.82,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.82,
+            "basel_score": 4.73,
+            "raw_cpi": 71,
+            "normalized_cpi": 2.9
+        }
+    },
+    "Jersey": {
+        "iso_alpha3": "JEY",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Jordan": {
+        "iso_alpha3": "JOR",
+        "region": "Asia",
+        "risk_score": 4.92,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.92,
+            "basel_score": 4.85,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Kazakhstan": {
+        "iso_alpha3": "KAZ",
+        "region": "Asia",
+        "risk_score": 5.69,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.69,
+            "basel_score": 5.18,
+            "raw_cpi": 38,
+            "normalized_cpi": 6.2
+        }
+    },
+    "Kenya": {
+        "iso_alpha3": "KEN",
+        "region": "Africa",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 6.6,
+            "raw_cpi": 30,
+            "normalized_cpi": 7.0
+        }
+    },
+    "Kiribati": {
+        "iso_alpha3": "KIR",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Kosovo": {
+        "iso_alpha3": "",
+        "region": "",
+        "risk_score": 5.35,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.35,
+            "basel_score": 5.0,
+            "raw_cpi": 43,
+            "normalized_cpi": 5.7
+        }
+    },
+    "Kuwait": {
+        "iso_alpha3": "KWT",
+        "region": "Asia",
+        "risk_score": 8.65,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 8.65,
+            "basel_score": 6.13,
+            "raw_cpi": 46,
+            "normalized_cpi": 5.4
+        }
+    },
+    "Kyrgyzstan": {
+        "iso_alpha3": "KGZ",
+        "region": "Asia",
+        "risk_score": 6.68,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.68,
+            "basel_score": 5.96,
+            "raw_cpi": 26,
+            "normalized_cpi": 7.4
+        }
+    },
+    "Lao People's Democratic Republic": {
+        "iso_alpha3": "LAO",
+        "region": "Asia",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 7.5,
+            "raw_cpi": 34,
+            "normalized_cpi": 6.6
+        }
+    },
+    "Latvia": {
+        "iso_alpha3": "LVA",
+        "region": "Europe",
+        "risk_score": 4.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.0,
+            "basel_score": 4.01,
+            "raw_cpi": 60,
+            "normalized_cpi": 4.0
+        }
+    },
+    "Lebanon": {
+        "iso_alpha3": "LBN",
+        "region": "Asia",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 5.93,
+            "raw_cpi": 23,
+            "normalized_cpi": 7.7
+        }
+    },
+    "Lesotho": {
+        "iso_alpha3": "LSO",
+        "region": "Africa",
+        "risk_score": 6.17,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.17,
+            "basel_score": 6.04,
+            "raw_cpi": 37,
+            "normalized_cpi": 6.3
+        }
+    },
+    "Liberia": {
+        "iso_alpha3": "LBR",
+        "region": "Africa",
+        "risk_score": 6.73,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.73,
+            "basel_score": 6.26,
+            "raw_cpi": 28,
+            "normalized_cpi": 7.2
+        }
+    },
+    "Libya": {
+        "iso_alpha3": "LBY",
+        "region": "Africa",
+        "risk_score": 6.85,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.85,
+            "basel_score": 5.0,
+            "raw_cpi": 13,
+            "normalized_cpi": 8.7
+        }
+    },
+    "Liechtenstein": {
+        "iso_alpha3": "LIE",
+        "region": "Europe",
+        "risk_score": 4.55,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.55,
+            "basel_score": 4.11,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Lithuania": {
+        "iso_alpha3": "LTU",
+        "region": "Europe",
+        "risk_score": 3.77,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.77,
+            "basel_score": 4.03,
+            "raw_cpi": 65,
+            "normalized_cpi": 3.5
+        }
+    },
+    "Luxembourg": {
+        "iso_alpha3": "LUX",
+        "region": "Europe",
+        "risk_score": 3.08,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.08,
+            "basel_score": 3.97,
+            "raw_cpi": 78,
+            "normalized_cpi": 2.2
+        }
+    },
+    "Macao": {
+        "iso_alpha3": "MAC",
+        "region": "Asia",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Macedonia": {
+        "iso_alpha3": "MKD",
+        "region": "Europe",
+        "risk_score": 5.1,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.1,
+            "basel_score": 4.2,
+            "raw_cpi": 40,
+            "normalized_cpi": 6.0
+        }
+    },
+    "Madagascar": {
+        "iso_alpha3": "MDG",
+        "region": "Africa",
+        "risk_score": 7.13,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.13,
+            "basel_score": 6.77,
+            "raw_cpi": 25,
+            "normalized_cpi": 7.5
+        }
+    },
+    "Malawi": {
+        "iso_alpha3": "MWI",
+        "region": "Africa",
+        "risk_score": 6.02,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.02,
+            "basel_score": 5.44,
+            "raw_cpi": 34,
+            "normalized_cpi": 6.6
+        }
+    },
+    "Malaysia": {
+        "iso_alpha3": "MYS",
+        "region": "Asia",
+        "risk_score": 5.2,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.2,
+            "basel_score": 5.6,
+            "raw_cpi": 52,
+            "normalized_cpi": 4.8
+        }
+    },
+    "Maldives": {
+        "iso_alpha3": "MDV",
+        "region": "Asia",
+        "risk_score": 5.55,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.55,
+            "basel_score": 5.0,
+            "raw_cpi": 39,
+            "normalized_cpi": 6.1
+        }
+    },
+    "Mali": {
+        "iso_alpha3": "MLI",
+        "region": "Africa",
+        "risk_score": 6.71,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.71,
+            "basel_score": 6.22,
+            "raw_cpi": 28,
+            "normalized_cpi": 7.2
+        }
+    },
+    "Malta": {
+        "iso_alpha3": "MLT",
+        "region": "Europe",
+        "risk_score": 5.12,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.12,
+            "basel_score": 5.15,
+            "raw_cpi": 49,
+            "normalized_cpi": 5.1
+        }
+    },
+    "Marshall Islands": {
+        "iso_alpha3": "MHL",
+        "region": "Oceania",
+        "risk_score": 4.95,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.95,
+            "basel_score": 4.89,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Martinique": {
+        "iso_alpha3": "MTQ",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Mauritania": {
+        "iso_alpha3": "MRT",
+        "region": "Africa",
+        "risk_score": 6.64,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.64,
+            "basel_score": 6.29,
+            "raw_cpi": 30,
+            "normalized_cpi": 7.0
+        }
+    },
+    "Mauritius": {
+        "iso_alpha3": "MUS",
+        "region": "Africa",
+        "risk_score": 4.93,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.93,
+            "basel_score": 4.65,
+            "raw_cpi": 48,
+            "normalized_cpi": 5.2
+        }
+    },
+    "Mayotte": {
+        "iso_alpha3": "MYT",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Mexico": {
+        "iso_alpha3": "MEX",
+        "region": "Americas",
+        "risk_score": 6.41,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.41,
+            "basel_score": 5.52,
+            "raw_cpi": 27,
+            "normalized_cpi": 7.3
+        }
+    },
+    "Micronesia": {
+        "iso_alpha3": "FSM",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Moldova": {
+        "iso_alpha3": "MDA",
+        "region": "Europe",
+        "risk_score": 5.22,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.22,
+            "basel_score": 4.64,
+            "raw_cpi": 42,
+            "normalized_cpi": 5.8
+        }
+    },
+    "Monaco": {
+        "iso_alpha3": "MCO",
+        "region": "Europe",
+        "risk_score": 7.5,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 7.5,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Mongolia": {
+        "iso_alpha3": "MNG",
+        "region": "Asia",
+        "risk_score": 5.93,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.93,
+            "basel_score": 4.96,
+            "raw_cpi": 31,
+            "normalized_cpi": 6.9
+        }
+    },
+    "Montenegro": {
+        "iso_alpha3": "MNE",
+        "region": "Europe",
+        "risk_score": 4.87,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.87,
+            "basel_score": 4.33,
+            "raw_cpi": 46,
+            "normalized_cpi": 5.4
+        }
+    },
+    "Montserrat": {
+        "iso_alpha3": "MSR",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Morocco": {
+        "iso_alpha3": "MAR",
+        "region": "Africa",
+        "risk_score": 5.57,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.57,
+            "basel_score": 5.04,
+            "raw_cpi": 39,
+            "normalized_cpi": 6.1
+        }
+    },
+    "Mozambique": {
+        "iso_alpha3": "MOZ",
+        "region": "Africa",
+        "risk_score": 7.14,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.14,
+            "basel_score": 6.38,
+            "raw_cpi": 21,
+            "normalized_cpi": 7.9
+        }
+    },
+    "Myanmar": {
+        "iso_alpha3": "MMR",
+        "region": "Asia",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Black_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 8.18,
+            "raw_cpi": 16,
+            "normalized_cpi": 8.4
+        }
+    },
+    "Namibia": {
+        "iso_alpha3": "NAM",
+        "region": "Africa",
+        "risk_score": 7.63,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 7.63,
+            "basel_score": 4.78,
+            "raw_cpi": 46,
+            "normalized_cpi": 5.4
+        }
+    },
+    "Nauru": {
+        "iso_alpha3": "NRU",
+        "region": "Oceania",
+        "risk_score": 4.44,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.44,
+            "basel_score": 3.88,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Nepal": {
+        "iso_alpha3": "NPL",
+        "region": "Asia",
+        "risk_score": 9.36,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 9.36,
+            "basel_score": 5.88,
+            "raw_cpi": 34,
+            "normalized_cpi": 6.6
+        }
+    },
+    "Netherlands": {
+        "iso_alpha3": "NLD",
+        "region": "Europe",
+        "risk_score": 3.37,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.37,
+            "basel_score": 4.53,
+            "raw_cpi": 78,
+            "normalized_cpi": 2.2
+        }
+    },
+    "New Caledonia": {
+        "iso_alpha3": "NCL",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "New Zealand": {
+        "iso_alpha3": "NZL",
+        "region": "Oceania",
+        "risk_score": 2.83,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 2.83,
+            "basel_score": 3.76,
+            "raw_cpi": 81,
+            "normalized_cpi": 1.9
+        }
+    },
+    "Nicaragua": {
+        "iso_alpha3": "NIC",
+        "region": "Americas",
+        "risk_score": 7.61,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.61,
+            "basel_score": 6.61,
+            "raw_cpi": 14,
+            "normalized_cpi": 8.6
+        }
+    },
+    "Niger": {
+        "iso_alpha3": "NER",
+        "region": "Africa",
+        "risk_score": 6.87,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.87,
+            "basel_score": 6.84,
+            "raw_cpi": 31,
+            "normalized_cpi": 6.9
+        }
+    },
+    "Nigeria": {
+        "iso_alpha3": "NGA",
+        "region": "Africa",
+        "risk_score": 6.79,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.79,
+            "basel_score": 6.18,
+            "raw_cpi": 26,
+            "normalized_cpi": 7.4
+        }
+    },
+    "Niue": {
+        "iso_alpha3": "NIU",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Norfolk Island": {
+        "iso_alpha3": "NFK",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "North Korea": {
+        "iso_alpha3": "PRK",
+        "region": "Asia",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Black_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 5.0,
+            "raw_cpi": 15,
+            "normalized_cpi": 8.5
+        }
+    },
+    "Northern Mariana Islands": {
+        "iso_alpha3": "MNP",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Norway": {
+        "iso_alpha3": "NOR",
+        "region": "Europe",
+        "risk_score": 2.81,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 2.81,
+            "basel_score": 3.73,
+            "raw_cpi": 81,
+            "normalized_cpi": 1.9
+        }
+    },
+    "Oman": {
+        "iso_alpha3": "OMN",
+        "region": "Asia",
+        "risk_score": 4.53,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.53,
+            "basel_score": 4.25,
+            "raw_cpi": 52,
+            "normalized_cpi": 4.8
+        }
+    },
+    "Pakistan": {
+        "iso_alpha3": "PAK",
+        "region": "Asia",
+        "risk_score": 6.42,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.42,
+            "basel_score": 5.63,
+            "raw_cpi": 28,
+            "normalized_cpi": 7.2
+        }
+    },
+    "Palau": {
+        "iso_alpha3": "PLW",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Palestinian Territory": {
+        "iso_alpha3": "PSE",
+        "region": "Asia",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Panama": {
+        "iso_alpha3": "PAN",
+        "region": "Americas",
+        "risk_score": 6.27,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.27,
+            "basel_score": 5.83,
+            "raw_cpi": 33,
+            "normalized_cpi": 6.7
+        }
+    },
+    "Papua New Guinea": {
+        "iso_alpha3": "PNG",
+        "region": "Oceania",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 6.61,
+            "raw_cpi": 26,
+            "normalized_cpi": 7.4
+        }
+    },
+    "Paraguay": {
+        "iso_alpha3": "PRY",
+        "region": "Americas",
+        "risk_score": 6.25,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.25,
+            "basel_score": 4.91,
+            "raw_cpi": 24,
+            "normalized_cpi": 7.6
+        }
+    },
+    "Peru": {
+        "iso_alpha3": "PER",
+        "region": "Americas",
+        "risk_score": 5.94,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.94,
+            "basel_score": 4.88,
+            "raw_cpi": 30,
+            "normalized_cpi": 7.0
+        }
+    },
+    "Philippines": {
+        "iso_alpha3": "PHL",
+        "region": "Asia",
+        "risk_score": 6.14,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.14,
+            "basel_score": 5.48,
+            "raw_cpi": 32,
+            "normalized_cpi": 6.8
+        }
+    },
+    "Pitcairn": {
+        "iso_alpha3": "PCN",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Poland": {
+        "iso_alpha3": "POL",
+        "region": "Europe",
+        "risk_score": 4.6,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.6,
+            "basel_score": 4.49,
+            "raw_cpi": 53,
+            "normalized_cpi": 4.7
+        }
+    },
+    "Portugal": {
+        "iso_alpha3": "PRT",
+        "region": "Europe",
+        "risk_score": 4.12,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.12,
+            "basel_score": 3.83,
+            "raw_cpi": 56,
+            "normalized_cpi": 4.4
+        }
+    },
+    "Puerto Rico": {
+        "iso_alpha3": "PRI",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Qatar": {
+        "iso_alpha3": "QAT",
+        "region": "Asia",
+        "risk_score": 4.72,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.72,
+            "basel_score": 5.25,
+            "raw_cpi": 58,
+            "normalized_cpi": 4.2
+        }
+    },
+    "Romania": {
+        "iso_alpha3": "ROU",
+        "region": "Europe",
+        "risk_score": 5.15,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.15,
+            "basel_score": 4.81,
+            "raw_cpi": 45,
+            "normalized_cpi": 5.5
+        }
+    },
+    "Russia": {
+        "iso_alpha3": "RUS",
+        "region": "Europe",
+        "risk_score": 6.4,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.4,
+            "basel_score": 5.0,
+            "raw_cpi": 22,
+            "normalized_cpi": 7.8
+        }
+    },
+    "Rwanda": {
+        "iso_alpha3": "RWA",
+        "region": "Africa",
+        "risk_score": 4.96,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.96,
+            "basel_score": 5.71,
+            "raw_cpi": 58,
+            "normalized_cpi": 4.2
+        }
+    },
+    "R\u00e9union": {
+        "iso_alpha3": "REU",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Saint Barth\u00e9lemy": {
+        "iso_alpha3": "BLM",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Saint Helena, Ascension and Tristan Da Cunha": {
+        "iso_alpha3": "SHN",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Saint Kitts and Nevis": {
+        "iso_alpha3": "KNA",
+        "region": "Americas",
+        "risk_score": 5.23,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.23,
+            "basel_score": 5.46,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Saint Lucia": {
+        "iso_alpha3": "LCA",
+        "region": "Americas",
+        "risk_score": 4.34,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.34,
+            "basel_score": 4.58,
+            "raw_cpi": 59,
+            "normalized_cpi": 4.1
+        }
+    },
+    "Saint Martin (French Part)": {
+        "iso_alpha3": "MAF",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Saint Pierre and Miquelon": {
+        "iso_alpha3": "SPM",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Saint Vincent and The Grenadines": {
+        "iso_alpha3": "VCT",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Samoa": {
+        "iso_alpha3": "WSM",
+        "region": "Oceania",
+        "risk_score": 4.78,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.78,
+            "basel_score": 4.56,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "San Marino": {
+        "iso_alpha3": "SMR",
+        "region": "Europe",
+        "risk_score": 4.04,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.04,
+            "basel_score": 3.08,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Sao Tome and Principe": {
+        "iso_alpha3": "STP",
+        "region": "Africa",
+        "risk_score": 5.73,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.73,
+            "basel_score": 5.96,
+            "raw_cpi": 45,
+            "normalized_cpi": 5.5
+        }
+    },
+    "Saudi Arabia": {
+        "iso_alpha3": "SAU",
+        "region": "Asia",
+        "risk_score": 5.08,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.08,
+            "basel_score": 5.87,
+            "raw_cpi": 57,
+            "normalized_cpi": 4.3
+        }
+    },
+    "Senegal": {
+        "iso_alpha3": "SEN",
+        "region": "Africa",
+        "risk_score": 5.38,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.38,
+            "basel_score": 5.36,
+            "raw_cpi": 46,
+            "normalized_cpi": 5.4
+        }
+    },
+    "Serbia": {
+        "iso_alpha3": "SRB",
+        "region": "Europe",
+        "risk_score": 5.96,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.96,
+            "basel_score": 5.21,
+            "raw_cpi": 33,
+            "normalized_cpi": 6.7
+        }
+    },
+    "Seychelles": {
+        "iso_alpha3": "SYC",
+        "region": "Africa",
+        "risk_score": 3.9,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.9,
+            "basel_score": 4.6,
+            "raw_cpi": 68,
+            "normalized_cpi": 3.2
+        }
+    },
+    "Sierra Leone": {
+        "iso_alpha3": "SLE",
+        "region": "Africa",
+        "risk_score": 6.5,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.5,
+            "basel_score": 6.41,
+            "raw_cpi": 34,
+            "normalized_cpi": 6.6
+        }
+    },
+    "Singapore": {
+        "iso_alpha3": "SGP",
+        "region": "Asia",
+        "risk_score": 3.17,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.17,
+            "basel_score": 4.73,
+            "raw_cpi": 84,
+            "normalized_cpi": 1.6
+        }
+    },
+    "Sint Maarten (Dutch Part)": {
+        "iso_alpha3": "SXM",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Slovakia": {
+        "iso_alpha3": "SVK",
+        "region": "Europe",
+        "risk_score": 4.79,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.79,
+            "basel_score": 4.38,
+            "raw_cpi": 48,
+            "normalized_cpi": 5.2
+        }
+    },
+    "Slovenia": {
+        "iso_alpha3": "SVN",
+        "region": "Europe",
+        "risk_score": 3.85,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.85,
+            "basel_score": 3.49,
+            "raw_cpi": 58,
+            "normalized_cpi": 4.2
+        }
+    },
+    "Solomon Islands": {
+        "iso_alpha3": "SLB",
+        "region": "Oceania",
+        "risk_score": 5.96,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.96,
+            "basel_score": 6.31,
+            "raw_cpi": 44,
+            "normalized_cpi": 5.6
+        }
+    },
+    "Somalia": {
+        "iso_alpha3": "SOM",
+        "region": "Africa",
+        "risk_score": 7.05,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.05,
+            "basel_score": 5.0,
+            "raw_cpi": 9,
+            "normalized_cpi": 9.1
+        }
+    },
+    "South Africa": {
+        "iso_alpha3": "ZAF",
+        "region": "Africa",
+        "risk_score": 5.77,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.77,
+            "basel_score": 5.63,
+            "raw_cpi": 41,
+            "normalized_cpi": 5.9
+        }
+    },
+    "South Georgia": {
+        "iso_alpha3": "SGS",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "South Korea": {
+        "iso_alpha3": "KOR",
+        "region": "Asia",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "South Sudan": {
+        "iso_alpha3": "SSD",
+        "region": "Africa",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 5.0,
+            "raw_cpi": 9,
+            "normalized_cpi": 9.1
+        }
+    },
+    "Spain": {
+        "iso_alpha3": "ESP",
+        "region": "Europe",
+        "risk_score": 4.37,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.37,
+            "basel_score": 4.24,
+            "raw_cpi": 55,
+            "normalized_cpi": 4.5
+        }
+    },
+    "Sri Lanka": {
+        "iso_alpha3": "LKA",
+        "region": "Asia",
+        "risk_score": 5.83,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.83,
+            "basel_score": 5.16,
+            "raw_cpi": 35,
+            "normalized_cpi": 6.5
+        }
+    },
+    "Sudan": {
+        "iso_alpha3": "SDN",
+        "region": "Africa",
+        "risk_score": 6.8,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.8,
+            "basel_score": 5.0,
+            "raw_cpi": 14,
+            "normalized_cpi": 8.6
+        }
+    },
+    "Suriname": {
+        "iso_alpha3": "SUR",
+        "region": "Americas",
+        "risk_score": 6.31,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.31,
+            "basel_score": 6.42,
+            "raw_cpi": 38,
+            "normalized_cpi": 6.2
+        }
+    },
+    "Svalbard and Jan Mayen": {
+        "iso_alpha3": "SJM",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Swaziland": {
+        "iso_alpha3": "SWZ",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Sweden": {
+        "iso_alpha3": "SWE",
+        "region": "Europe",
+        "risk_score": 2.74,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 2.74,
+            "basel_score": 3.48,
+            "raw_cpi": 80,
+            "normalized_cpi": 2.0
+        }
+    },
+    "Switzerland": {
+        "iso_alpha3": "CHE",
+        "region": "Europe",
+        "risk_score": 3.23,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.23,
+            "basel_score": 4.47,
+            "raw_cpi": 80,
+            "normalized_cpi": 2.0
+        }
+    },
+    "Syrian Arab Republic": {
+        "iso_alpha3": "SYR",
+        "region": "Asia",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Taiwan": {
+        "iso_alpha3": "TWN",
+        "region": "Asia",
+        "risk_score": 3.85,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.85,
+            "basel_score": 4.49,
+            "raw_cpi": 68,
+            "normalized_cpi": 3.2
+        }
+    },
+    "Tajikistan": {
+        "iso_alpha3": "TJK",
+        "region": "Asia",
+        "risk_score": 7.27,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.27,
+            "basel_score": 6.44,
+            "raw_cpi": 19,
+            "normalized_cpi": 8.1
+        }
+    },
+    "Tanzania": {
+        "iso_alpha3": "TZA",
+        "region": "Africa",
+        "risk_score": 5.75,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.75,
+            "basel_score": 5.51,
+            "raw_cpi": 40,
+            "normalized_cpi": 6.0
+        }
+    },
+    "Thailand": {
+        "iso_alpha3": "THA",
+        "region": "Asia",
+        "risk_score": 6.34,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.34,
+            "basel_score": 5.98,
+            "raw_cpi": 33,
+            "normalized_cpi": 6.7
+        }
+    },
+    "Timor-Leste": {
+        "iso_alpha3": "TLS",
+        "region": "Asia",
+        "risk_score": 5.59,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.59,
+            "basel_score": 5.58,
+            "raw_cpi": 44,
+            "normalized_cpi": 5.6
+        }
+    },
+    "Togo": {
+        "iso_alpha3": "TGO",
+        "region": "Africa",
+        "risk_score": 6.62,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.62,
+            "basel_score": 6.44,
+            "raw_cpi": 32,
+            "normalized_cpi": 6.8
+        }
+    },
+    "Tokelau": {
+        "iso_alpha3": "TKL",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Tonga": {
+        "iso_alpha3": "TON",
+        "region": "Oceania",
+        "risk_score": 5.33,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.33,
+            "basel_score": 5.67,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Trinidad and Tobago": {
+        "iso_alpha3": "TTO",
+        "region": "Americas",
+        "risk_score": 5.01,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.01,
+            "basel_score": 4.12,
+            "raw_cpi": 41,
+            "normalized_cpi": 5.9
+        }
+    },
+    "Tunisia": {
+        "iso_alpha3": "TUN",
+        "region": "Africa",
+        "risk_score": 5.42,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.42,
+            "basel_score": 4.75,
+            "raw_cpi": 39,
+            "normalized_cpi": 6.1
+        }
+    },
+    "Turkey": {
+        "iso_alpha3": "TUR",
+        "region": "Asia",
+        "risk_score": 6.28,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.28,
+            "basel_score": 5.65,
+            "raw_cpi": 31,
+            "normalized_cpi": 6.9
+        }
+    },
+    "Turkmenistan": {
+        "iso_alpha3": "TKM",
+        "region": "Asia",
+        "risk_score": 7.52,
+        "risk_rating": "High",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 7.52,
+            "basel_score": 6.73,
+            "raw_cpi": 17,
+            "normalized_cpi": 8.3
+        }
+    },
+    "Turks and Caicos Islands": {
+        "iso_alpha3": "TCA",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Tuvalu": {
+        "iso_alpha3": "TUV",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Uganda": {
+        "iso_alpha3": "UGA",
+        "region": "Africa",
+        "risk_score": 6.61,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.61,
+            "basel_score": 5.72,
+            "raw_cpi": 25,
+            "normalized_cpi": 7.5
+        }
+    },
+    "Ukraine": {
+        "iso_alpha3": "UKR",
+        "region": "Europe",
+        "risk_score": 5.89,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.89,
+            "basel_score": 5.38,
+            "raw_cpi": 36,
+            "normalized_cpi": 6.4
+        }
+    },
+    "United Arab Emirates": {
+        "iso_alpha3": "ARE",
+        "region": "Asia",
+        "risk_score": 4.61,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.61,
+            "basel_score": 6.11,
+            "raw_cpi": 69,
+            "normalized_cpi": 3.1
+        }
+    },
+    "United Kingdom": {
+        "iso_alpha3": "GBR",
+        "region": "Europe",
+        "risk_score": 3.52,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.52,
+            "basel_score": 4.04,
+            "raw_cpi": 70,
+            "normalized_cpi": 3.0
+        }
+    },
+    "United States": {
+        "iso_alpha3": "USA",
+        "region": "Americas",
+        "risk_score": 4.21,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 4.21,
+            "basel_score": 4.83,
+            "raw_cpi": 64,
+            "normalized_cpi": 3.6
+        }
+    },
+    "United States Minor Outlying Islands": {
+        "iso_alpha3": "UMI",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Uruguay": {
+        "iso_alpha3": "URY",
+        "region": "Americas",
+        "risk_score": 3.47,
+        "risk_rating": "Low",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 3.47,
+            "basel_score": 4.23,
+            "raw_cpi": 73,
+            "normalized_cpi": 2.7
+        }
+    },
+    "Uzbekistan": {
+        "iso_alpha3": "UZB",
+        "region": "Asia",
+        "risk_score": 6.08,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.08,
+            "basel_score": 5.27,
+            "raw_cpi": 31,
+            "normalized_cpi": 6.9
+        }
+    },
+    "Vanuatu": {
+        "iso_alpha3": "VUT",
+        "region": "Oceania",
+        "risk_score": 5.13,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.13,
+            "basel_score": 4.97,
+            "raw_cpi": 47,
+            "normalized_cpi": 5.3
+        }
+    },
+    "Vatican City": {
+        "iso_alpha3": "VAT",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Venezuela": {
+        "iso_alpha3": "VEN",
+        "region": "Americas",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 7.55,
+            "raw_cpi": 10,
+            "normalized_cpi": 9.0
+        }
+    },
+    "Viet Nam": {
+        "iso_alpha3": "VNM",
+        "region": "Asia",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Virgin Islands, British": {
+        "iso_alpha3": "VGB",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Virgin Islands, U.S.": {
+        "iso_alpha3": "VIR",
+        "region": "Americas",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Wallis and Futuna": {
+        "iso_alpha3": "WLF",
+        "region": "Oceania",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Western Sahara": {
+        "iso_alpha3": "ESH",
+        "region": "Africa",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    },
+    "Yemen": {
+        "iso_alpha3": "YEM",
+        "region": "Asia",
+        "risk_score": 10.0,
+        "risk_rating": "High",
+        "fatf_status": "Grey_List",
+        "metrics": {
+            "risk_score_value": 10.0,
+            "basel_score": 5.0,
+            "raw_cpi": 13,
+            "normalized_cpi": 8.7
+        }
+    },
+    "Zambia": {
+        "iso_alpha3": "ZMB",
+        "region": "Africa",
+        "risk_score": 5.8,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.8,
+            "basel_score": 5.31,
+            "raw_cpi": 37,
+            "normalized_cpi": 6.3
+        }
+    },
+    "Zimbabwe": {
+        "iso_alpha3": "ZWE",
+        "region": "Africa",
+        "risk_score": 6.89,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 6.89,
+            "basel_score": 5.99,
+            "raw_cpi": 22,
+            "normalized_cpi": 7.8
+        }
+    },
+    "\u00c5land Islands": {
+        "iso_alpha3": "ALA",
+        "region": "Europe",
+        "risk_score": 5.0,
+        "risk_rating": "Medium",
+        "fatf_status": "None",
+        "metrics": {
+            "risk_score_value": 5.0,
+            "basel_score": 5.0,
+            "raw_cpi": 50,
+            "normalized_cpi": 5.0
+        }
+    }
+}

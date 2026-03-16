@@ -1,0 +1,31 @@
+{
+  "fatf_black_list": [
+    "North Korea",
+    "Iran",
+    "Myanmar"
+  ],
+  "fatf_grey_list": [
+    "Algeria",
+    "Angola",
+    "Bolivia",
+    "Bulgaria",
+    "Cameroon",
+    "Côte D'Ivoire",
+    "Congo",
+    "Haiti",
+    "Kenya",
+    "Kuwait",
+    "Lao People's Democratic Republic",
+    "Lebanon",
+    "Monaco",
+    "Namibia",
+    "Nepal",
+    "Papua New Guinea",
+    "South Sudan",
+    "Syria",
+    "Venezuela",
+    "Vietnam",
+    "Virgin Islands (UK)",
+    "Yemen"
+  ]
+}

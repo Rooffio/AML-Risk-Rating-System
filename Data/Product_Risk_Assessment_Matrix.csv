@@ -1,0 +1,44 @@
+Category,Product,RF_Anonymity,RF_3rd_Party_Pay,RF_Bearer,RF_Pooled,RF_Instant,RF_Cross_Border,RF_High_Value,RF_24_7,RF_Cash_In,RF_Cash_Out,RF_Asset_Conv,RF_Audit_Gap,RF_Complexity,RF_Low_Reg,RF_Easy_Onboard,RF_Remote,RF_Agent,RF_Flexibility,RF_New_Tech,MF_KYC,MF_EDD,MF_SoW_SoF,MF_Usage_Limits,MF_Velocity_Ctrl,MF_Geo_Fence,MF_Cash_Cap,MF_Audit_Trail,MF_Tx_Monitor,MF_MFA,Assumptions
+Traditional Banking,Current Accounts,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,0,1,0,1,1,1,0,0,0,1,1,1,1,Online access; third-party deposits possible; instant rails may apply; cash in/out supported
+Traditional Banking,Checking Accounts,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,0,1,0,1,1,1,0,0,0,1,1,1,1,Online access; third-party deposits possible; instant rails may apply; cash in/out supported
+Traditional Banking,Savings Accounts,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,Typically not instant 24/7; limited transfers; cash in/out supported; stronger onboarding
+Traditional Banking,Fixed Deposits,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,Locked instruments; limited liquidity; registered ownership; low remote onboarding
+Traditional Banking,Term Deposits,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,Locked instruments; limited liquidity; registered ownership; low remote onboarding
+Traditional Banking,Certificates of Deposit,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,0,1,Registered to named customer; bearer CDs rare; limited instant access
+Traditional Banking,Personal Loans,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,1,1,1,1,1,1,0,1,1,1,Credit product; funds disbursed to accounts; limited anonymity; SoW/SoF required for high amounts
+Traditional Banking,Mortgages,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,1,"High value, long term; complex ownership; strong documentation"
+Traditional Banking,Credit Cards,0,1,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,1,0,1,1,0,1,1,0,0,1,1,1,"Instant payments, third-party funding possible (authorized users); strong monitoring"
+Traditional Banking,Debit Cards,0,0,0,0,1,1,0,1,0,1,1,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,Direct access to deposits; cash-out via ATMs; instant retail payments
+Traditional Banking,Overdraft Facilities,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,1,1,0,1,1,0,Credit line on account; does not itself enable instant external transfers
+Traditional Banking,Trade Finance Instruments,0,1,0,0,0,1,1,0,0,0,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,0,1,1,1,Documentary complexity; cross-border; high layering risk; nominee use possible
+Traditional Banking,Treasury Services,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,1,0,1,0,1,1,1,0,0,0,0,1,1,1,"High-value, cross-border, often real-time settlement; strong controls expected"
+Payment Services,Wire Transfers,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,1,0,1,0,1,1,1,0,1,0,0,1,1,1,"Cross-border, high value, instant/near real-time; travel-rule and sanctions screening required"
+Payment Services,ACH,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,1,1,"Batch processing, lower velocity than instant rails; third-party debits possible"
+Payment Services,Direct Debits,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,1,1,"Batch processing, lower velocity than instant rails; third-party debits possible"
+Payment Services,Domestic Instant Payments,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,0,1,1,1,Instant rails increase velocity risk; often 24/7 depending on scheme
+Payment Services,Cross-Border Remittances,0,1,0,0,1,1,0,1,1,1,1,0,1,0,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1,"Remittances often cash-in/out, agent networks, cross-border complexity"
+Payment Services,Prepaid Cards,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,0,0,1,0,1,1,0,1,0,1,1,Often anonymous or low-KYC variants; cash top-up and cash-out via agents/ATMs; virtual variants = new tech
+Payment Services,Money Orders,0,1,1,0,0,1,1,0,1,1,1,1,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,Bearer-like risk for some instruments; physical cash movement; can be used cross-border
+Payment Services,Bank Drafts,0,1,1,0,0,1,1,0,1,1,1,1,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,Bearer-like risk for some instruments; physical cash movement; can be used cross-border
+Fintech,Mobile Money Wallets,0,1,0,1,1,0,0,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,Agent cash-in/out common; pooled float; instant transfers; strong agent controls needed
+Fintech,Digital Banking Apps,0,1,0,0,1,1,1,1,0,1,1,0,0,0,0,1,0,1,0,1,1,0,1,1,0,1,1,1,1,Neobank/digital rails; instant transfers and cross-border options; remote onboarding common
+Fintech,P2P Payment Apps,0,1,0,0,1,1,0,1,0,0,1,0,0,0,1,1,0,1,0,1,0,0,1,1,0,0,1,1,1,Peer cash-out to bank or agents often available; social payments; instant rails
+Fintech,Buy Now Pay Later,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,1,0,0,1,1,1,0,1,1,1,Credit product with merchant settlement; limited cash-out but high value/chargebacks
+Fintech,Digital Lending Platforms,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,0,1,1,1,Funds disbursed to accounts; potential for third-party funding; SoW/SoF for large loans
+Fintech,Crowdfunding Platforms,0,1,0,0,0,1,1,1,0,0,1,0,1,0,1,1,0,1,0,1,1,1,0,0,0,0,1,1,1,"Third-party funding, pooled contributions, potential for layering; project payouts cross-border"
+Fintech,Neobank Accounts,0,1,0,0,1,1,1,1,0,1,1,0,0,0,0,1,0,1,0,1,1,0,1,1,0,1,1,1,1,Digital-first current accounts; instant rails and remote onboarding; similar to traditional current accounts
+Emerging Tech,Cryptocurrency Exchanges,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,1,1,High anonymity potential; cross-border and instant rails; on-chain audit gaps; travel-rule and on-chain analytics required
+Emerging Tech,Cryptocurrency Wallets,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,1,1,High anonymity potential; cross-border and instant rails; on-chain audit gaps; travel-rule and on-chain analytics required
+Emerging Tech,Stablecoins,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,0,1,1,1,Tokenized assets can be behave like bearer instruments; instant and cross-border; require strong SoW/SoF and travel-rule controls
+Emerging Tech,Tokenized Assets,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,0,1,1,1,Tokenized assets can be behave like bearer instruments; instant and cross-border; require strong SoW/SoF and travel-rule controls
+Emerging Tech,DeFi Protocols,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,1,0,0,"Permissionless, pseudonymous, on-chain; limited KYC feasible; high audit gaps; many mitigants may be impractical"
+Emerging Tech,NFT Marketplaces,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,1,0,0,High-value asset conversion risk; pseudonymous wallets; on-chain provenance helps but does not eliminate risk
+Emerging Tech,Virtual Prepaid Cards,1,1,1,1,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,0,1,0,1,1,0,0,0,1,1,Virtual-first prepaid; top-up and cash-out options vary by issuer; treat as high-risk unless closed-loop with strict limits
+Emerging Tech,Cross-border e-wallets,0,1,0,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,0,1,1,0,1,1,0,1,1,1,1,Agent networks and cross-border rails common; cash-in/out and high velocity; strong agent and sanctions controls required
+Wealth/Investment,Brokerage Accounts,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,1,1,1,High-value transfers and cross-border settlements; asset conversion risk; strong EDD and transaction monitoring needed
+Wealth/Investment,Mutual Funds,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,0,0,1,0,1,1,1,Pooled investments and nominee structures possible; redemption and layering risk; require investor verification
+Wealth/Investment,Collective Investment Schemes,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,0,0,1,0,1,1,1,Pooled investments and nominee structures possible; redemption and layering risk; require investor verification
+Wealth/Investment,Private Equity Funds,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,Complex ownership and nominee investors; high value; strong EDD and SoW/SoF required
+Wealth/Investment,Venture Capital Funds,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,Complex ownership and nominee investors; high value; strong EDD and SoW/SoF required
+Wealth/Investment,Insurance Products,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,1,0,1,1,1,0,0,0,0,1,1,1,Investment-linked insurance can be used for layering; surrender/early redemption risk; require EDD for large policies
+Wealth/Investment,Wealth Management Accounts,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,1,0,1,0,1,1,1,0,0,0,0,1,1,1,"High-value, complex structures and nominee use; strong SoW/SoF, EDD and ongoing monitoring required"

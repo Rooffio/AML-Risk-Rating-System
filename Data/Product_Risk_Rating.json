@@ -1,0 +1,518 @@
+[
+    {
+        "category": "Traditional Banking",
+        "product": "Current Accounts",
+        "residual_risk_score": 6.0,
+        "risk_rating": "Medium",
+        "metrics": {
+            "weighted_inherent_risk": 44,
+            "weighted_control_strength": 32,
+            "control_effectiveness_pct": "72.7%"
+        },
+        "assumptions": "Online access; third-party deposits possible; instant rails may apply; cash in/out supported"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Checking Accounts",
+        "residual_risk_score": 6.0,
+        "risk_rating": "Medium",
+        "metrics": {
+            "weighted_inherent_risk": 44,
+            "weighted_control_strength": 32,
+            "control_effectiveness_pct": "72.7%"
+        },
+        "assumptions": "Online access; third-party deposits possible; instant rails may apply; cash in/out supported"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Savings Accounts",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 23,
+            "weighted_control_strength": 35,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Typically not instant 24/7; limited transfers; cash in/out supported; stronger onboarding"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Fixed Deposits",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 15,
+            "weighted_control_strength": 39,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Locked instruments; limited liquidity; registered ownership; low remote onboarding"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Term Deposits",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 15,
+            "weighted_control_strength": 39,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Locked instruments; limited liquidity; registered ownership; low remote onboarding"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Certificates of Deposit",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 13,
+            "weighted_control_strength": 21,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Registered to named customer; bearer CDs rare; limited instant access"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Personal Loans",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 18,
+            "weighted_control_strength": 39,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Credit product; funds disbursed to accounts; limited anonymity; SoW/SoF required for high amounts"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Mortgages",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 18,
+            "weighted_control_strength": 39,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "High value, long term; complex ownership; strong documentation"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Credit Cards",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 29,
+            "weighted_control_strength": 31,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Instant payments, third-party funding possible (authorized users); strong monitoring"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Debit Cards",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 30,
+            "weighted_control_strength": 31,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Direct access to deposits; cash-out via ATMs; instant retail payments"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Overdraft Facilities",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 13,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Credit line on account; does not itself enable instant external transfers"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Trade Finance Instruments",
+        "residual_risk_score": 1.0,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 33,
+            "weighted_control_strength": 31,
+            "control_effectiveness_pct": "93.9%"
+        },
+        "assumptions": "Documentary complexity; cross-border; high layering risk; nominee use possible"
+    },
+    {
+        "category": "Traditional Banking",
+        "product": "Treasury Services",
+        "residual_risk_score": 5.5,
+        "risk_rating": "Medium",
+        "metrics": {
+            "weighted_inherent_risk": 38,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "71.1%"
+        },
+        "assumptions": "High-value, cross-border, often real-time settlement; strong controls expected"
+    },
+    {
+        "category": "Payment Services",
+        "product": "Wire Transfers",
+        "residual_risk_score": 3.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 38,
+            "weighted_control_strength": 31,
+            "control_effectiveness_pct": "81.6%"
+        },
+        "assumptions": "Cross-border, high value, instant/near real-time; travel-rule and sanctions screening required"
+    },
+    {
+        "category": "Payment Services",
+        "product": "ACH",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 9,
+            "weighted_control_strength": 30,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Batch processing, lower velocity than instant rails; third-party debits possible"
+    },
+    {
+        "category": "Payment Services",
+        "product": "Direct Debits",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 9,
+            "weighted_control_strength": 30,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Batch processing, lower velocity than instant rails; third-party debits possible"
+    },
+    {
+        "category": "Payment Services",
+        "product": "Domestic Instant Payments",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 20,
+            "weighted_control_strength": 30,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Instant rails increase velocity risk; often 24/7 depending on scheme"
+    },
+    {
+        "category": "Payment Services",
+        "product": "Cross-Border Remittances",
+        "residual_risk_score": 3.0,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 46,
+            "weighted_control_strength": 40,
+            "control_effectiveness_pct": "87.0%"
+        },
+        "assumptions": "Remittances often cash-in/out, agent networks, cross-border complexity"
+    },
+    {
+        "category": "Payment Services",
+        "product": "Prepaid Cards",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 69,
+            "weighted_control_strength": 26,
+            "control_effectiveness_pct": "37.7%"
+        },
+        "assumptions": "Often anonymous or low-KYC variants; cash top-up and cash-out via agents/ATMs; virtual variants = new tech"
+    },
+    {
+        "category": "Payment Services",
+        "product": "Money Orders",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 49,
+            "weighted_control_strength": 9,
+            "control_effectiveness_pct": "18.4%"
+        },
+        "assumptions": "Bearer-like risk for some instruments; physical cash movement; can be used cross-border"
+    },
+    {
+        "category": "Payment Services",
+        "product": "Bank Drafts",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 49,
+            "weighted_control_strength": 9,
+            "control_effectiveness_pct": "18.4%"
+        },
+        "assumptions": "Bearer-like risk for some instruments; physical cash movement; can be used cross-border"
+    },
+    {
+        "category": "Fintech",
+        "product": "Mobile Money Wallets",
+        "residual_risk_score": 5.0,
+        "risk_rating": "Medium",
+        "metrics": {
+            "weighted_inherent_risk": 45,
+            "weighted_control_strength": 35,
+            "control_effectiveness_pct": "77.8%"
+        },
+        "assumptions": "Agent cash-in/out common; pooled float; instant transfers; strong agent controls needed"
+    },
+    {
+        "category": "Fintech",
+        "product": "Digital Banking Apps",
+        "residual_risk_score": 1.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 39,
+            "weighted_control_strength": 36,
+            "control_effectiveness_pct": "92.3%"
+        },
+        "assumptions": "Neobank/digital rails; instant transfers and cross-border options; remote onboarding common"
+    },
+    {
+        "category": "Fintech",
+        "product": "P2P Payment Apps",
+        "residual_risk_score": 3.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 33,
+            "weighted_control_strength": 26,
+            "control_effectiveness_pct": "78.8%"
+        },
+        "assumptions": "Peer cash-out to bank or agents often available; social payments; instant rails"
+    },
+    {
+        "category": "Fintech",
+        "product": "Buy Now Pay Later",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 16,
+            "weighted_control_strength": 30,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Credit product with merchant settlement; limited cash-out but high value/chargebacks"
+    },
+    {
+        "category": "Fintech",
+        "product": "Digital Lending Platforms",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 26,
+            "weighted_control_strength": 39,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Funds disbursed to accounts; potential for third-party funding; SoW/SoF for large loans"
+    },
+    {
+        "category": "Fintech",
+        "product": "Crowdfunding Platforms",
+        "residual_risk_score": 5.5,
+        "risk_rating": "Medium",
+        "metrics": {
+            "weighted_inherent_risk": 38,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "71.1%"
+        },
+        "assumptions": "Third-party funding, pooled contributions, potential for layering; project payouts cross-border"
+    },
+    {
+        "category": "Fintech",
+        "product": "Neobank Accounts",
+        "residual_risk_score": 1.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 39,
+            "weighted_control_strength": 36,
+            "control_effectiveness_pct": "92.3%"
+        },
+        "assumptions": "Digital-first current accounts; instant rails and remote onboarding; similar to traditional current accounts"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "Cryptocurrency Exchanges",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 64,
+            "weighted_control_strength": 32,
+            "control_effectiveness_pct": "50.0%"
+        },
+        "assumptions": "High anonymity potential; cross-border and instant rails; on-chain audit gaps; travel-rule and on-chain analytics required"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "Cryptocurrency Wallets",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 64,
+            "weighted_control_strength": 32,
+            "control_effectiveness_pct": "50.0%"
+        },
+        "assumptions": "High anonymity potential; cross-border and instant rails; on-chain audit gaps; travel-rule and on-chain analytics required"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "Stablecoins",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 69,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "39.1%"
+        },
+        "assumptions": "Tokenized assets can be behave like bearer instruments; instant and cross-border; require strong SoW/SoF and travel-rule controls"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "Tokenized Assets",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 69,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "39.1%"
+        },
+        "assumptions": "Tokenized assets can be behave like bearer instruments; instant and cross-border; require strong SoW/SoF and travel-rule controls"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "DeFi Protocols",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 69,
+            "weighted_control_strength": 5,
+            "control_effectiveness_pct": "7.2%"
+        },
+        "assumptions": "Permissionless, pseudonymous, on-chain; limited KYC feasible; high audit gaps; many mitigants may be impractical"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "NFT Marketplaces",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 65,
+            "weighted_control_strength": 5,
+            "control_effectiveness_pct": "7.7%"
+        },
+        "assumptions": "High-value asset conversion risk; pseudonymous wallets; on-chain provenance helps but does not eliminate risk"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "Virtual Prepaid Cards",
+        "residual_risk_score": 10.0,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 56,
+            "weighted_control_strength": 21,
+            "control_effectiveness_pct": "37.5%"
+        },
+        "assumptions": "Virtual-first prepaid; top-up and cash-out options vary by issuer; treat as high-risk unless closed-loop with strict limits"
+    },
+    {
+        "category": "Emerging Tech",
+        "product": "Cross-border e-wallets",
+        "residual_risk_score": 9.5,
+        "risk_rating": "High",
+        "metrics": {
+            "weighted_inherent_risk": 55,
+            "weighted_control_strength": 36,
+            "control_effectiveness_pct": "65.5%"
+        },
+        "assumptions": "Agent networks and cross-border rails common; cash-in/out and high velocity; strong agent and sanctions controls required"
+    },
+    {
+        "category": "Wealth/Investment",
+        "product": "Brokerage Accounts",
+        "residual_risk_score": 1.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 30,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "90.0%"
+        },
+        "assumptions": "High-value transfers and cross-border settlements; asset conversion risk; strong EDD and transaction monitoring needed"
+    },
+    {
+        "category": "Wealth/Investment",
+        "product": "Mutual Funds",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 18,
+            "weighted_control_strength": 31,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Pooled investments and nominee structures possible; redemption and layering risk; require investor verification"
+    },
+    {
+        "category": "Wealth/Investment",
+        "product": "Collective Investment Schemes",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 18,
+            "weighted_control_strength": 31,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Pooled investments and nominee structures possible; redemption and layering risk; require investor verification"
+    },
+    {
+        "category": "Wealth/Investment",
+        "product": "Private Equity Funds",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 18,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Complex ownership and nominee investors; high value; strong EDD and SoW/SoF required"
+    },
+    {
+        "category": "Wealth/Investment",
+        "product": "Venture Capital Funds",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 18,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Complex ownership and nominee investors; high value; strong EDD and SoW/SoF required"
+    },
+    {
+        "category": "Wealth/Investment",
+        "product": "Insurance Products",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 21,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "Investment-linked insurance can be used for layering; surrender/early redemption risk; require EDD for large policies"
+    },
+    {
+        "category": "Wealth/Investment",
+        "product": "Wealth Management Accounts",
+        "residual_risk_score": 0.5,
+        "risk_rating": "Low",
+        "metrics": {
+            "weighted_inherent_risk": 26,
+            "weighted_control_strength": 27,
+            "control_effectiveness_pct": "100%"
+        },
+        "assumptions": "High-value, complex structures and nominee use; strong SoW/SoF, EDD and ongoing monitoring required"
+    }
+]

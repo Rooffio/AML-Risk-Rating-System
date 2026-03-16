@@ -1,0 +1,28 @@
+{
+  "delivery_channel_risk": [
+    {
+      "channel": "Face-to-Face",
+      "description": "Customer established relationship in-person at a branch.",
+      "risk_level": "Low",
+      "risk_score": 2.0,
+      "multiplier": 1.0,
+      "controls_required": "Standard ID verification"
+    },
+    {
+      "channel": "Non-Face-to-Face",
+      "description": "Account opened online, via mobile app, or mail.",
+      "risk_level": "Medium",
+      "risk_score": 5.0,
+      "multiplier": 1.25,
+      "controls_required": "Digital liveness check, biometric verification, or e-KYC"
+    },
+    {
+      "channel": "Third-Party / Intermediary",
+      "description": "Relationship established via an agent, broker, or intermediary.",
+      "risk_level": "High",
+      "risk_score": 8.0,
+      "multiplier": 1.5,
+      "controls_required": "Enhanced Due Diligence (EDD) on both customer and intermediary"
+    }
+  ]
+}
