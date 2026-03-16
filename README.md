@@ -93,9 +93,7 @@ The module operates on a **Residual Risk formula**, ensuring that product risk i
 
 
 
-\[
-\text{Residual Product Risk} \;=\; (\text{Inherent Risk Factors}) \;-\; (\text{Mitigating Control Effectiveness})
-\]
+**` $$Residual\ Product\ Risk = (Inherent\ Risk\ Factors) - (Mitigating\ Control\ Effectiveness)$$ `**
 
 
 
@@ -141,71 +139,70 @@ By calculating a **granular net-risk score**, the engine allows compliance teams
 
 ---
 
+## 1. Jurisdictional (Country) Risk Intelligence
 
+Calculated in **`Country_Risk_Rating.py`**.
 
-## 2. Product & Service Risk Taxonomy
-
-Calculated in **`Product_Risk_Calculator.py`**.
-
-This module quantifies the **exploitability of financial instruments and services**. By moving beyond static product classifications, the engine implements a **net-vulnerability assessment** that balances the inherent dangers of a product against the institution's active control environment.
+This module transforms **qualitative regulatory intelligence** into a quantitative **Inherent Geography Risk (IGR)** score. By normalizing disparate global indices, the engine produces a **unified 1–10 jurisdictional risk scale** that is both **objective and audit-ready**.
 
 ---
 
-### Risk Matrix Framework
+### Jurisdictional Risk Formula
 
-The module operates on a **Residual Risk model**, ensuring that product risk is never evaluated in isolation. It calculates the **delta between potential exposure and existing safeguards**.
+The module applies a **weighted composite methodology**, ensuring that systemic AML vulnerabilities and corruption exposure are balanced against a jurisdiction’s **formal regulatory standing**.
 
-### Residual Product Risk Formula
+**Inherent Geography Risk (IGR)**
 
-
-
-\[
-\text{Residual Product Risk} = (\text{Inherent Risk Factors}) - (\text{Mitigating Control Effectiveness})
-\]
-
+**` IGR = Normalized(Basel AML Index + CPI Score) × FATF Multiplier `**
 
 
 ---
 
-### Inherent Risk Factors (RF)
+### Data Fusion & Normalization
 
-The engine evaluates **19 distinct indicators** to determine how susceptible a financial product is to **money laundering or terrorist financing**.
+The engine ingests and reconciles **two globally recognized jurisdictional risk indicators** to establish a holistic baseline risk score.
 
-Key variables include:
+**Basel AML Index Integration**
 
-- **Anonymity & Transparency**  
-  The degree to which a product allows **non-face-to-face onboarding**, pseudonymous usage, or the use of **bearer instruments**.
+Evaluates the strength of a country’s **AML/CFT regulatory framework**, including:
 
-- **Liquidity & Velocity**  
-  The ease with which assets can be **converted to cash** and the **speed at which funds can be transferred**.
+- Financial transparency
+- Exposure to bribery and corruption
+- Institutional enforcement effectiveness
 
-- **Convertibility**  
-  The ability to **move value across different asset classes, instruments, or currencies**.
+This provides the **technical baseline for jurisdictional risk health**.
+
+**Corruption Perceptions Index (CPI) Normalization**
+
+Normalizes **Transparency International’s CPI dataset** to identify environments where **public sector corruption** may facilitate:
+
+- Large-scale money laundering
+- Misappropriation of state resources
+- Regulatory capture and weak enforcement
 
 ---
 
-### Mitigating Factors (MF)
+### Dynamic FATF Multipliers
 
-To prevent overstating risk, the system incorporates **12 internal control layers** that reduce product vulnerability.
+To align with **FATF Recommendation 19 (Higher-Risk Countries)**, the module applies **automated jurisdictional multipliers** based on formal FATF status.
 
-Examples include:
+**Increased Monitoring (Grey List)**  
+Applies a **1.5× multiplier**, proactively elevating the jurisdiction into a **High-Risk posture** and triggering **mandatory Enhanced Due Diligence (EDD)**.
 
-- **KYC/CDD Stringency**  
-  The depth of **customer documentation and verification** required for a specific product line.
-
-- **Transactional Thresholds**  
-  Hard limits on **transaction value or volume** that restrict the scale of potential illicit activity.
-
-- **Monitoring Intensity**  
-  The **frequency, automation level, and sophistication** of transaction surveillance applied to the product.
+**High-Risk Jurisdictions / Call for Action (Black List)**  
+Applies a **2.0× multiplier**, ensuring the jurisdiction is **capped at the maximum risk score (10.0)** and triggering strict institutional risk controls.
 
 ---
 
 ### Compliance Outcome
 
-The resulting score represents the **net vulnerability of financial instruments**.  
+By calculating a **dynamic jurisdictional risk score**, the engine enables compliance teams to move beyond **static spreadsheet-based risk tables**.
 
-By calculating a **granular residual score**, the engine enables compliance teams to justify the use of **inherently higher-risk financial services**—such as **Trade Finance** or **Correspondent Banking**—by demonstrating that the institution’s **internal control framework effectively reduces the inherent risk to an acceptable level**.
+The system ensures that any **customer, counterparty, or transaction with geographic exposure to higher-risk jurisdictions** is immediately identified, enabling:
+
+- **Event-driven risk reviews**
+- **Automated Enhanced Due Diligence triggers**
+- **Rapid reassessment when FATF classifications change**
 
 
 
@@ -347,10 +344,9 @@ pip install pandas numpy
 ## 2. Execute Data Pipeline
 
 ```bash
-# Generate the synthetic environment
-python generate_table1.py
+# Calculate Jurisdictional and Product Risk Baselines
+python Country_Risk_Rating.py
 python Product_Risk_Calculator.py
-python generate_table2.py
 
 # Run the final risk assessment
 python risk_engine.py
