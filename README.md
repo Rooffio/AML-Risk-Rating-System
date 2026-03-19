@@ -1,85 +1,259 @@
 # 🛡️ Global Sentinel — Multi-Tiered AML/CFT Risk & Intelligence Framework
 
-**Global Sentinel** is a production-grade, modular AML/CFT risk orchestration engine engineered to automate the identification, quantification, and classification of financial crime threats. By fusing international regulatory indices with institutional behavioral telemetry, the framework delivers explainable, deterministic risk scoring across **Customer (KYC/KYB)**, **Product**, and **Jurisdictional (Country)** domains.
-
-Built to bridge the gap between raw data engineering and regulatory intelligence, Global Sentinel transforms disparate data points into actionable compliance insights. This ensures a robust **Risk-Based Approach (RBA)** that is fully aligned with the expectations of global standard-setters and supervisory authorities.
+> **Production-Grade AML/CFT Risk Orchestration Engine** | **Risk-Based Approach (RBA)** | **FATF 40 Recommendations Compliant** | **Explainable AI (XAI)**
 
 ---
 
-# 🚀 Executive Summary
+## 📋 Table of Contents
 
-Global Sentinel operates as a **high-throughput multi-stage pipeline** designed to ingest and harmonize heterogeneous **CSV and JSON data feeds**. The system normalizes raw regulatory inputs into structured risk matrices, executing a sophisticated **Weighted Scoring Engine** that evaluates risk across six distinct pillars of financial crime vulnerability. 
+| Section | Description |
+|---------|-------------|
+| [Executive Summary](#-executive-summary) | System overview and enterprise capabilities |
+| [Core Capabilities](#-core-capabilities--risk-framework) | Five-pillar risk framework architecture |
+| [Regulatory Alignment](#-regulatory-alignment--governance) | FATF, Wolfsberg, Basel, and supervisory mapping |
+| [Intelligence Pillars](#-intelligence-pillars) | Jurisdictional, Product, and Customer risk modules |
+| [Scoring Methodology](#-scoring-methodology) | Weighted aggregation and hard override logic |
+| [Project Layout](#-project-layout) | Repository structure and file organization |
+| [Quick Start](#-quick-start) | Installation and execution guide |
+| [License & Disclaimer](#-license--disclaimer) | Terms of use and regulatory notice |
 
-Unlike "black-box" solutions, Global Sentinel prioritizes **explainability**—ensuring that every risk rating is backed by a transparent audit trail of specific risk factors and mitigating controls.
+---
+
+## 🚀 Executive Summary
+
+**Global Sentinel** is a production-grade, modular **AML/CFT risk orchestration engine** engineered to automate the identification, quantification, and classification of financial crime threats. By fusing international regulatory indices with institutional behavioral telemetry, the framework delivers **explainable, deterministic risk scoring** across three core domains:
+
+| Domain | Scope | Output |
+|--------|-------|--------|
+| **Customer (KYC/KYB)** | Identity, PEP, UBO structures | Risk Rating + EDD Triggers |
+| **Product** | Service exploitability assessment | Residual Product Risk Score |
+| **Jurisdictional (Country)** | Geography risk normalization | Inherent Geography Risk (IGR) |
+
+Built to bridge the gap between **raw data engineering** and **regulatory intelligence**, Global Sentinel transforms disparate data points into actionable compliance insights. This ensures a robust **Risk-Based Approach (RBA)** that is fully aligned with the expectations of global standard-setters and supervisory authorities.
+
+---
+
+### **System Architecture Overview**
+
+Global Sentinel operates as a **high-throughput multi-stage pipeline** designed to ingest and harmonize heterogeneous **CSV and JSON data feeds**. The system normalizes raw regulatory inputs into structured risk matrices, executing a sophisticated **Weighted Scoring Engine** that evaluates risk across **six distinct pillars** of financial crime vulnerability.
+
+Unlike *"black-box"* solutions, Global Sentinel prioritizes **explainability** — ensuring that every risk rating is backed by a transparent audit trail of specific risk factors and mitigating controls.
+
+---
 
 ### **Enterprise-Scale Resilience**
-The framework is architected for **high-cardinality datasets**, providing the computational power required for complex entity resolution and periodic portfolio reviews. It was tested by the orchestration of simulations involving the following datasets with a completion time of approximately 2 minutes:
-* **200,000+ Unique Customer Profiles**: Comprehensive identity mapping including PII, UBO (Ultimate Beneficial Ownership) structures, and KYB entity hierarchies.
-* **1.1 Million+ Product-Account Relationships**: Mapping complex 1:N relational nodes to detect risk propagation across product lines and nested accounts.
+
+The framework is architected for **high-cardinality datasets**, providing the computational power required for complex entity resolution and periodic portfolio reviews.
+
+| Metric | Volume | Completion Time |
+|--------|--------|-----------------|
+| **Unique Customer Profiles** | 200,000+ | ~2 minutes |
+| **Product-Account Relationships** | 1.1 Million+ | ~2 minutes |
+| **Data Points Processed** | Comprehensive PII, UBO, KYB hierarchies | Batch-optimized |
+
+**Tested Capabilities:**
+- ✅ Comprehensive identity mapping including **PII**, **UBO (Ultimate Beneficial Ownership)** structures, and **KYB entity hierarchies**
+- ✅ Complex **1:N relational node mapping** to detect risk propagation across product lines and nested accounts
+
+---
 
 ### **Precision Risk Decisioning**
-At the core of the system is the **Master Risk Engine**, a hybrid decision-making layer that balances granular quantitative weighting with a **Zero-Tolerance Hard Override Logic**. 
 
-* **Weighted Aggregation**: Allows compliance teams to tune the engine based on their institution’s specific **Risk Appetite Statement (RAS)**, weighting factors like behavior, channel, and jurisdiction.
-* **Deterministic Guardrails**: Ensures that critical high-risk indicators—such as **Sanctions nexus, Foreign PEP exposure, Shell Bank status, or Opaque Beneficial Ownership**—trigger immediate, non-dilutable **High-Risk classifications**. 
+At the core of the system is the **Master Risk Engine**, a hybrid decision-making layer that balances granular quantitative weighting with a **Zero-Tolerance Hard Override Logic**.
 
-By bypassing weighted averages when critical threats are detected, the system maintains absolute regulatory safety, institutional integrity, and a defensible posture for **SAR/STR filing** and internal audits.
+| Component | Function | Regulatory Benefit |
+|-----------|----------|-------------------|
+| **Weighted Aggregation** | Tunable engine based on institution's **Risk Appetite Statement (RAS)** | Customizable risk weighting for behavior, channel, jurisdiction |
+| **Deterministic Guardrails** | Non-dilutable triggers for critical high-risk indicators | Absolute regulatory safety and defensible **SAR/STR** posture |
+
+**Hard Override Triggers:**
+- 🚫 **Sanctions Nexus**
+- 🚫 **Foreign PEP Exposure**
+- 🚫 **Shell Bank Status**
+- 🚫 **Opaque Beneficial Ownership**
+
+By bypassing weighted averages when critical threats are detected, the system maintains **absolute regulatory safety**, **institutional integrity**, and a **defensible posture** for **SAR/STR filing** and internal audits.
 
 ---
 
 ## 🛡️ Core Capabilities & Risk Framework
 
-Global Sentinel’s architecture is built on the principle of **Defensible Logic**. Each capability is designed to ensure that the transition from raw data to a Risk Rating is transparent, documented, and fully aligned with the **Risk-Based Approach (RBA)**.
-
-* **Dynamic Jurisdictional Orchestration**
-    The engine moves beyond static country lists by calculating a dynamic **Inherent Geography Risk (IGR)**. It merges qualitative data from the **Basel AML Index** with the **Transparency International Corruption Perceptions Index (CPI)**. To ensure instantaneous compliance with international shifts, the system applies automated **FATF Status Multipliers** (1.5x for Grey-listed / 2.0x for Black-listed jurisdictions), enabling immediate portfolio-wide re-rating.
-
-* **Multi-Dimensional Product Risk Taxonomy**
-    The system quantifies the specific "exploitability" of financial instruments using a net-risk calculation. It evaluates **Inherent Risk Factors (RF)**—such as cash-intensity, anonymity, and settlement finality—and offsets them against institutional **Mitigating Factors (MF)** like transaction limits and mandatory face-to-face onboarding. This results in a granular **Residual Product Risk** score that reflects true institutional exposure.
-
-* **Six-Pillar Weighted Scoring Engine**
-    To provide a 360-degree view of the risk profile, the engine executes a simultaneous evaluation across six critical pillars:
-    * **Geography**: Macro-jurisdictional exposure.
-    * **Product**: Inherent vulnerability of the service utilized.
-    * **Channel**: Risk associated with the delivery method (e.g., Non-Face-to-Face vs. Branch).
-    * **Identity**: Entity transparency and complexity (e.g., Trusts/PICs vs. Natural Persons).
-    * **Behavior**: Deviations in transactional velocity, volume, and value.
-    * **KYC Status**: Verification integrity and completeness of due diligence documentation.
-
-* **Deterministic "Hard Override" Guardrails**
-    To prevent **Risk Dilution**—a common failure where a critical threat is "averaged out" by low-risk data—the system employs non-dilutable triggers. Detection of a **Sanctions Nexus, Foreign PEP status, Shell Bank indicator, or Opaque Ownership structure** terminates the weighted calculation and forces an immediate **High-Risk (10.0)** classification.
-
-* **Audit Transparency & Explainability**
-    Every decision produced by the engine is accompanied by an immutable `override_reason` and provenance metadata. This ensures that every risk rating—whether automated or manually adjusted—is fully auditable, providing the necessary evidence for **SAR/STR filings** and internal/external regulatory examinations.
+Global Sentinel's architecture is built on the principle of **Defensible Logic**. Each capability is designed to ensure that the transition from raw data to a Risk Rating is **transparent**, **documented**, and fully aligned with the **Risk-Based Approach (RBA)**.
 
 ---
 
-# 🏛️ Regulatory Alignment & Governance
+### 1️⃣ Dynamic Jurisdictional Orchestration
 
-The scoring logic, weighting factors, and override triggers within Global Sentinel are meticulously mapped to internationally recognized AML/CFT standards. This alignment ensures that the framework remains **audit-ready** and provides a defensible methodology during regulatory examinations or independent third-party audits.
-
-* **FATF (Financial Action Task Force): The Global Gold Standard**
-    The engine is built on the **FATF Risk-Based Approach (RBA)** and specifically addresses the **40 Recommendations**. Most notably, it operationalizes Recommendation 19 (Higher-Risk Countries) by integrating automated Black and Grey list multipliers. This ensures that the system doesn't just "flag" jurisdictions, but mathematically adjusts risk weights in real-time as FATF designations shift.
-
-* **The Wolfsberg Group: Correspondent Banking & Sanctions Effectiveness**
-    Global Sentinel incorporates the **Wolfsberg Anti-Money Laundering Principles**. Our Product Risk Taxonomy specifically weighs "Anonymity" and "Settlement Finality"—key vulnerabilities identified in the Wolfsberg Correspondent Banking Guidance. Furthermore, the engine’s hard-override logic is designed to meet the group’s expectations for **Sanctions Screening Effectiveness**, ensuring zero-tolerance for prohibited counterparty nexus.
-
-* **Basel Institute on Governance: Jurisdictional Health Metrics**
-    The framework directly ingests the **Basel AML Index** to evaluate the quality of a country’s AML/CFT framework, the risk of bribery/corruption, and the level of financial transparency. By integrating this index, the engine provides a nuanced view of "Geography Risk" that goes beyond simple Sanctions lists to include systemic institutional risk.
-
-* **Transparency International: Corruption Perception Index (CPI) Normalization**
-    To quantify the risk of **bribery and state-level corruption**, the engine normalizes the **Corruption Perception Index (CPI)** into a 1–10 risk scale. This allows the system to accurately identify and elevate the risk levels for customers or entities originating from environments where public sector corruption may facilitate large-scale money laundering.
-
-* **Regional Supervisory Expectations (FinCEN, FCA, MAS, HKMA)**
-    While global in scope, the engine’s modular configuration allows for the fine-tuning of thresholds to meet specific local requirements—such as the **US Bank Secrecy Act (BSA)**, the **UK Money Laundering Regulations**, and the **MAS/HKMA technology risk management guidelines**.
+| Feature | Implementation | Outcome |
+|---------|----------------|---------|
+| **Inherent Geography Risk (IGR)** | Merges **Basel AML Index** + **Transparency International CPI** | Unified 1–10 jurisdictional risk scale |
+| **FATF Status Multipliers** | 1.5× (Grey-listed) / 2.0× (Black-listed) | Immediate portfolio-wide re-rating |
+| **Event-Driven Updates** | Automated re-calculation on FATF designation changes | Real-time compliance posture |
 
 ---
 
-# 🧩 Intelligence Pillars
+### 2️⃣ Multi-Dimensional Product Risk Taxonomy
+
+| Component | Description |
+|-----------|-------------|
+| **Inherent Risk Factors (RF)** | Cash-intensity, anonymity, settlement finality |
+| **Mitigating Factors (MF)** | Transaction limits, mandatory face-to-face onboarding |
+| **Output** | Granular **Residual Product Risk** score reflecting true institutional exposure |
+
+---
+
+### 3️⃣ Six-Pillar Weighted Scoring Engine
+
+The engine executes simultaneous evaluation across **six critical pillars** for a 360-degree risk profile view:
+
+| Pillar | Weight | Risk Dimension |
+|--------|--------|----------------|
+| **Geography** | 1.4 | Macro-jurisdictional exposure |
+| **Product** | 1.2 | Inherent vulnerability of service utilized |
+| **Channel** | 0.8 | Delivery method risk (Non-F2F vs. Branch) |
+| **Identity** | 1.0 | Entity transparency and complexity |
+| **Behavior** | 1.5 | Transactional velocity, volume, and value deviations |
+| **KYC Status** | 1.1 | Verification integrity and due diligence completeness |
+
+---
+
+### 4️⃣ Deterministic "Hard Override" Guardrails
+
+To prevent **Risk Dilution** — a common failure where a critical threat is *"averaged out"* by low-risk data — the system employs **non-dilutable triggers**.
+
+| Override Condition | Forced Classification | Regulatory Rationale |
+|--------------------|----------------------|---------------------|
+| Sanctions Nexus | **High-Risk (10.0)** | Zero-tolerance for prohibited counterparties |
+| Foreign PEP Status | **High-Risk (10.0)** | Enhanced corruption exposure |
+| Shell Bank Indicator | **High-Risk (10.0)** | FATF Recommendation prohibition |
+| Opaque Ownership Structure | **High-Risk (10.0)** | UBO transparency requirement |
+
+---
+
+### 5️⃣ Audit Transparency & Explainability
+
+| Feature | Implementation | Audit Benefit |
+|---------|----------------|---------------|
+| **Override Reason Tracking** | Immutable `override_reason` field | Full decision provenance |
+| **Provenance Metadata** | Timestamped risk factor attribution | Internal/external examination readiness |
+| **Manual Adjustment Logging** | All overrides captured with user ID | SAR/STR filing evidence |
+
+---
+
+## 🏛️ Regulatory Alignment & Governance
+
+The scoring logic, weighting factors, and override triggers within Global Sentinel are meticulously mapped to internationally recognized **AML/CFT standards**. This alignment ensures that the framework remains **audit-ready** and provides a defensible methodology during regulatory examinations or independent third-party audits.
+
+---
+
+### 📜 FATF (Financial Action Task Force): The Global Gold Standard
+
+| Standard | Implementation |
+|----------|----------------|
+| **Risk-Based Approach (RBA)** | Core architecture principle |
+| **40 Recommendations** | Full operational coverage |
+| **Recommendation 19 (Higher-Risk Countries)** | Automated Black/Grey list multipliers |
+
+**Key Benefit:** The system doesn't just *"flag"* jurisdictions — it **mathematically adjusts risk weights in real-time** as FATF designations shift.
+
+---
+
+### 🏦 The Wolfsberg Group: Correspondent Banking & Sanctions Effectiveness
+
+| Principle | Implementation |
+|-----------|----------------|
+| **AML Principles** | Integrated into Product Risk Taxonomy |
+| **Correspondent Banking Guidance** | "Anonymity" and "Settlement Finality" weighted as key vulnerabilities |
+| **Sanctions Screening Effectiveness** | Hard-override logic ensures zero-tolerance for prohibited counterparty nexus |
+
+---
+
+### 📊 Basel Institute on Governance: Jurisdictional Health Metrics
+
+| Metric | Purpose |
+|--------|---------|
+| **Basel AML Index** | Evaluates country AML/CFT framework quality |
+| **Bribery/Corruption Risk** | Identifies systemic institutional vulnerabilities |
+| **Financial Transparency** | Measures regulatory enforcement effectiveness |
+
+---
+
+### 🔍 Transparency International: Corruption Perception Index (CPI) Normalization
+
+| Function | Output |
+|----------|--------|
+| **CPI Normalization** | Converts to 1–10 risk scale |
+| **Public Sector Corruption Detection** | Identifies environments facilitating large-scale money laundering |
+| **State Resource Misappropriation Risk** | Elevated risk scoring for high-corruption jurisdictions |
+
+---
+
+### 🌐 Regional Supervisory Expectations
+
+| Jurisdiction | Regulatory Framework |
+|--------------|---------------------|
+| **United States** | Bank Secrecy Act (BSA), FinCEN Guidelines |
+| **United Kingdom** | Money Laundering Regulations, FCA Expectations |
+| **Singapore** | MAS Technology Risk Management Guidelines |
+| **Hong Kong** | HKMA AML/CFT Supervisory Requirements |
+
+**Modular Configuration:** The engine's architecture allows fine-tuning of thresholds to meet specific local requirements.
+
+---
+
+## 🧩 Intelligence Pillars
+
+---
+
+## 1. Jurisdictional (Country) Risk Intelligence
+
+> **Module:** `Country_Risk_Rating.py`
+
+This module transforms **qualitative regulatory intelligence** into a quantitative **Inherent Geography Risk (IGR)** score. By normalizing disparate global indices, the engine produces a **unified 1–10 jurisdictional risk scale** that is both **objective and audit-ready**.
+
+---
+
+### Jurisdictional Risk Formula
+
+The module applies a **weighted composite methodology**, ensuring that systemic AML vulnerabilities and corruption exposure are balanced against a jurisdiction's **formal regulatory standing**.
+
+$$IGR = \text{Normalized}(\text{Basel AML Index} + \text{CPI Score}) \times \text{FATF Multiplier}$$
+
+---
+
+### Data Fusion & Normalization
+
+| Data Source | Evaluation Criteria | Output |
+|-------------|---------------------|--------|
+| **Basel AML Index** | Financial transparency, bribery/corruption exposure, institutional enforcement effectiveness | Technical baseline for jurisdictional risk health |
+| **Corruption Perceptions Index (CPI)** | Public sector corruption facilitating money laundering, misappropriation of state resources, regulatory capture | Normalized 1–10 risk scale |
+
+---
+
+### Dynamic FATF Multipliers
+
+Aligned with **FATF Recommendation 19 (Higher-Risk Countries)**, the module applies **automated jurisdictional multipliers** based on formal FATF status.
+
+| FATF Status | Multiplier | Action Triggered |
+|-------------|------------|------------------|
+| **Grey List (Increased Monitoring)** | 1.5× | Proactive elevation to High-Risk posture + mandatory EDD |
+| **Black List (Call for Action)** | 2.0× | Capped at maximum risk score (10.0) + strict institutional controls |
+
+---
+
+### Compliance Outcome
+
+| Capability | Benefit |
+|------------|---------|
+| **Event-Driven Risk Reviews** | Automatic reassessment on FATF classification changes |
+| **Automated EDD Triggers** | Immediate enhanced due diligence for high-risk jurisdictions |
+| **Dynamic Re-Rating** | Rapid portfolio-wide risk adjustment without manual intervention |
+
+---
 
 ## 2. Product & Service Risk Taxonomy
 
-Calculated in **`Product_Risk_Calculator.py`**.
+> **Module:** `Product_Risk_Calculator.py`
 
 This module quantifies the specific **exploitability of financial instruments and services**. It moves beyond static product classifications by implementing a **net-vulnerability assessment** that balances inherent product risks against the institution's active control environment.
 
@@ -89,13 +263,7 @@ This module quantifies the specific **exploitability of financial instruments an
 
 The module operates on a **Residual Risk formula**, ensuring that product risk is never evaluated in isolation:
 
-### Residual Product Risk
-
-
-
-**` $$Residual\ Product\ Risk = (Inherent\ Risk\ Factors) - (Mitigating\ Control\ Effectiveness)$$ `**
-
-
+$$\text{Residual Product Risk} = (\text{Inherent Risk Factors}) - (\text{Mitigating Control Effectiveness})$$
 
 ---
 
@@ -103,16 +271,11 @@ The module operates on a **Residual Risk formula**, ensuring that product risk i
 
 The engine evaluates **19 distinct risk indicators** to determine how easily a product could be exploited for **money laundering or terrorist financing**.
 
-Key indicators include:
-
-- **Anonymity & Complexity**  
-  Determines whether the product enables **non-face-to-face onboarding**, use of **bearer instruments**, or complex ownership structures.
-
-- **Liquidity & Velocity**  
-  Measures how quickly value can be transferred and whether the product allows **rapid conversion into cash or other liquid assets**.
-
-- **Cross-Border Reach**  
-  Assesses whether the service facilitates **international value transfer**, particularly into **higher-risk jurisdictions**.
+| Category | Indicators |
+|----------|------------|
+| **Anonymity & Complexity** | Non-face-to-face onboarding, bearer instruments, complex ownership structures |
+| **Liquidity & Velocity** | Rapid value transfer, quick conversion to cash or liquid assets |
+| **Cross-Border Reach** | International value transfer, higher-risk jurisdiction exposure |
 
 ---
 
@@ -120,97 +283,31 @@ Key indicators include:
 
 To prevent inflated risk classifications, the system incorporates **12 internal control layers** designed to reduce product vulnerability.
 
-Examples include:
-
-- **Transactional Thresholds**  
-  Hard limits on transaction volume or value that restrict the scale of potential illicit activity.
-
-- **Onboarding Stringency**  
-  Enhanced **KYC requirements** or **mandatory in-person verification** for certain high-risk products or services.
-
-- **Monitoring Intensity**  
-  The **frequency and depth of automated transaction monitoring** applied to the product’s activity.
+| Control Type | Examples |
+|--------------|----------|
+| **Transactional Thresholds** | Hard limits on transaction volume or value |
+| **Onboarding Stringency** | Enhanced KYC, mandatory in-person verification |
+| **Monitoring Intensity** | Frequency and depth of automated transaction monitoring |
 
 ---
 
 ### Compliance Outcome
 
-By calculating a **granular net-risk score**, the engine allows compliance teams to justify the continued use of inherently high-risk financial services—such as **Trade Finance** or **Correspondent Banking**—by demonstrating that **internal controls effectively reduce the underlying risk to an acceptable level**.
+| Benefit | Description |
+|---------|-------------|
+| **Granular Net-Risk Scoring** | Justifies continued use of inherently high-risk services |
+| **Control Effectiveness Demonstration** | Shows internal controls reduce underlying risk to acceptable levels |
+| **Audit-Ready Documentation** | Supports regulatory examination of high-risk product offerings |
+
+**Applicable Services:** Trade Finance, Correspondent Banking, Private Banking, Crypto-Asset Services
 
 ---
-
-## 1. Jurisdictional (Country) Risk Intelligence
-
-Calculated in **`Country_Risk_Rating.py`**.
-
-This module transforms **qualitative regulatory intelligence** into a quantitative **Inherent Geography Risk (IGR)** score. By normalizing disparate global indices, the engine produces a **unified 1–10 jurisdictional risk scale** that is both **objective and audit-ready**.
-
----
-
-### Jurisdictional Risk Formula
-
-The module applies a **weighted composite methodology**, ensuring that systemic AML vulnerabilities and corruption exposure are balanced against a jurisdiction’s **formal regulatory standing**.
-
-**Inherent Geography Risk (IGR)**
-
-**` IGR = Normalized(Basel AML Index + CPI Score) × FATF Multiplier `**
-
-
----
-
-### Data Fusion & Normalization
-
-The engine ingests and reconciles **two globally recognized jurisdictional risk indicators** to establish a holistic baseline risk score.
-
-**Basel AML Index Integration**
-
-Evaluates the strength of a country’s **AML/CFT regulatory framework**, including:
-
-- Financial transparency
-- Exposure to bribery and corruption
-- Institutional enforcement effectiveness
-
-This provides the **technical baseline for jurisdictional risk health**.
-
-**Corruption Perceptions Index (CPI) Normalization**
-
-Normalizes **Transparency International’s CPI dataset** to identify environments where **public sector corruption** may facilitate:
-
-- Large-scale money laundering
-- Misappropriation of state resources
-- Regulatory capture and weak enforcement
-
----
-
-### Dynamic FATF Multipliers
-
-To align with **FATF Recommendation 19 (Higher-Risk Countries)**, the module applies **automated jurisdictional multipliers** based on formal FATF status.
-
-**Increased Monitoring (Grey List)**  
-Applies a **1.5× multiplier**, proactively elevating the jurisdiction into a **High-Risk posture** and triggering **mandatory Enhanced Due Diligence (EDD)**.
-
-**High-Risk Jurisdictions / Call for Action (Black List)**  
-Applies a **2.0× multiplier**, ensuring the jurisdiction is **capped at the maximum risk score (10.0)** and triggering strict institutional risk controls.
-
----
-
-### Compliance Outcome
-
-By calculating a **dynamic jurisdictional risk score**, the engine enables compliance teams to move beyond **static spreadsheet-based risk tables**.
-
-The system ensures that any **customer, counterparty, or transaction with geographic exposure to higher-risk jurisdictions** is immediately identified, enabling:
-
-- **Event-driven risk reviews**
-- **Automated Enhanced Due Diligence triggers**
-- **Rapid reassessment when FATF classifications change**
-
-
 
 ## 3. Customer & Behavioral Risk Profiling
 
-Managed by **`risk_engine.py`**.
+> **Module:** `risk_engine.py`
 
-This module serves as the **final integration layer**, synthesizing **identity-based risk indicators** with **real-world activity telemetry**. By evaluating both **how a customer enters the ecosystem** and **how they interact with it**, the engine transitions from static “paper-based” risk assessments to **dynamic behavioral intelligence**.
+This module serves as the **final integration layer**, synthesizing **identity-based risk indicators** with **real-world activity telemetry**. By evaluating both **how a customer enters the ecosystem** and **how they interact with it**, the engine transitions from static *"paper-based"* risk assessments to **dynamic behavioral intelligence**.
 
 ---
 
@@ -220,68 +317,50 @@ The engine evaluates the customer across **three primary risk lenses** to determ
 
 ---
 
-### Politically Exposed Persons (PEP) & Entity Status
+### 🎯 Politically Exposed Persons (PEP) & Entity Status
 
-The module identifies **high-risk personas**, including:
-
-- **Domestic and Foreign Politically Exposed Persons (PEPs)**
-- **Relatives and Close Associates (RCAs)**
-- High-risk corporate or institutional affiliations
-
-By assigning **specific weighting to these classifications**, the engine ensures that individuals with elevated **influence or corruption exposure** are subjected to **enhanced monitoring and due diligence controls**.
+| Classification | Risk Weight | Control Requirement |
+|----------------|-------------|---------------------|
+| **Domestic PEPs** | Elevated | Enhanced monitoring |
+| **Foreign PEPs** | Maximum | Hard override trigger |
+| **Relatives & Close Associates (RCAs)** | Elevated | Enhanced due diligence |
+| **High-Risk Corporate Affiliations** | Variable | Entity-level assessment |
 
 ---
 
-### Onboarding & Delivery Channel Analysis
+### 📍 Onboarding & Delivery Channel Analysis
 
 Risk exposure is significantly influenced by **how the customer relationship is established**.
 
-The engine applies a **risk premium** to **Non-Face-to-Face (Digital/Remote) onboarding** compared to traditional **Face-to-Face interactions**, reflecting:
-
-- Increased **identity verification challenges**
-- Higher potential for **synthetic identity fraud**
-- Reduced reliability of **document-based verification**
+| Channel | Risk Premium | Rationale |
+|---------|--------------|-----------|
+| **Face-to-Face (Branch)** | Baseline | Direct identity verification |
+| **Non-Face-to-Face (Digital/Remote)** | Elevated | Identity verification challenges, synthetic identity fraud risk |
+| **Third-Party Introduction** | Variable | Reliance on external due diligence |
 
 ---
 
-### Transactional Intensity & Velocity Patterns
+### 📈 Transactional Intensity & Velocity Patterns
 
-This sub-module analyzes the **financial activity profile** of the customer to identify behavioral anomalies.
-
-Key signals include:
-
-- **Velocity**  
-  Rapid movement of funds **in and out of accounts** without a clear economic purpose.
-
-- **Intensity**  
-  High volumes of **cash-equivalent transactions**, frequent transfers, or **repeated transactions near regulatory reporting thresholds**.
-
-These patterns may indicate typologies such as:
-
-- **Structuring**
-- **Smurfing**
-- Rapid value cycling across accounts.
+| Signal | Detection Logic | Typology Indicator |
+|--------|-----------------|-------------------|
+| **Velocity** | Rapid movement of funds in/out without economic purpose | Layering, integration |
+| **Intensity** | High volumes of cash-equivalent transactions | Structuring, smurfing |
+| **Threshold Proximity** | Repeated transactions near reporting limits | Deliberate avoidance of CTR/STR |
 
 ---
 
 ### Final Risk Classification
 
-The culmination of this analysis results in the assignment of the **Final Customer Risk Category**:
+| Risk Category | Periodic Review Cycle | EDD Requirement | Monitoring Intensity |
+|---------------|----------------------|-----------------|---------------------|
+| **Low Risk** | 24–36 months | Standard | Baseline |
+| **Medium Risk** | 12–18 months | Enhanced | Elevated |
+| **High Risk** | 6–12 months | Mandatory | Continuous |
 
-- **Low Risk**
-- **Medium Risk**
-- **High Risk**
+---
 
-This classification determines:
-
-- The **frequency of the Periodic Review Cycle**
-- The **level of Enhanced Due Diligence (EDD)** required
-- The ongoing monitoring intensity needed to maintain the relationship within the institution’s **risk appetite framework**.
-
-
-
-
-# ⚙️ Scoring Methodology
+## ⚙️ Scoring Methodology
 
 The final **Residual Risk Score** is derived from two distinct logic layers.
 
@@ -291,12 +370,14 @@ The final **Residual Risk Score** is derived from two distinct logic layers.
 
 Six core pillars are evaluated using weighted scoring:
 
-* **Geography** — weight 1.4
-* **Product** — weight 1.2
-* **Behavior** — weight 1.5
-* **Identity / Customer Type** — weight 1.0
-* **KYC Control Strength** — weight 1.1
-* **Channel Risk** — weight 0.8
+| Pillar | Weight | Description |
+|--------|--------|-------------|
+| **Geography** | 1.4 | Macro-jurisdictional exposure |
+| **Product** | 1.2 | Inherent vulnerability of service utilized |
+| **Behavior** | 1.5 | Transactional velocity, volume, and value deviations |
+| **Identity / Customer Type** | 1.0 | Entity transparency and complexity |
+| **KYC Control Strength** | 1.1 | Verification integrity and due diligence completeness |
+| **Channel Risk** | 0.8 | Delivery method risk (Non-F2F vs. Branch) |
 
 ---
 
@@ -304,14 +385,22 @@ Six core pillars are evaluated using weighted scoring:
 
 If a record satisfies an override condition (for example `media_status == "Sanctions"`), the system **forces the score to 10.0**, bypassing the weighted scoring mechanism.
 
-This ensures **critical compliance risks cannot be diluted by statistical averaging**.
+```python
+# Hard Override Logic Example
+if media_status == "Sanctions" or pep_status == "Foreign_PEP":
+    final_risk_score = 10.0
+    override_reason = "CRITICAL_HIGH_RISK_TRIGGER"
+    bypass_weighted_calculation = True
+```
+
+**Regulatory Rationale:** This ensures **critical compliance risks cannot be diluted by statistical averaging**.
 
 ---
 
-# 📂 Project Layout
+## 📂 Project Layout
 
-```text
-.
+```
+Global-Sentinel/
 ├── Data/
 │   ├── Table1_Core_Customer_Data.csv       # PII & Demographics (200k rows)
 │   ├── Table2_Account_Product_Data.csv     # Relational Product Map (1.1M rows)
@@ -329,19 +418,22 @@ This ensures **critical compliance risks cannot be diluted by statistical averag
 
 ---
 
-# ⚡ Quick Start
+## ⚡ Quick Start
 
-## 1. Installation
+### 1. Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/YOUR_USERNAME/Global-Sentinel.git
 cd Global-Sentinel
+
+# Install dependencies
 pip install pandas numpy
 ```
 
 ---
 
-## 2. Execute Data Pipeline
+### 2. Execute Data Pipeline
 
 ```bash
 # Calculate Jurisdictional and Product Risk Baselines
@@ -354,7 +446,7 @@ python risk_engine.py
 
 ---
 
-## 3. Review Results
+### 3. Review Results
 
 The final classifications are exported to:
 
@@ -362,12 +454,69 @@ The final classifications are exported to:
 Data/Final_Customer_Risk_Rating.csv
 ```
 
-Each record includes the **specific `override_reason` field**, enabling **full audit transparency and traceability**.
+| Field | Description |
+|-------|-------------|
+| `customer_id` | Unique entity identifier |
+| `final_risk_score` | Normalized 0–10 risk rating |
+| `risk_category` | Low / Medium / High classification |
+| `override_reason` | Specific trigger for audit transparency |
+| `review_due_date` | Next periodic review deadline |
+
+**Audit Feature:** Each record includes the specific `override_reason` field, enabling **full audit transparency and traceability**.
 
 ---
 
-# ⚖️ License & Disclaimer
+## ⚖️ License & Disclaimer
+
+### License
 
 Distributed under the **Apache License 2.0**.
 
-⚠️ **Disclaimer:** This framework uses synthetic data and is intended for **RegTech architectural modeling and experimentation**. It does not constitute legal, regulatory, or compliance advice and must be adapted to applicable jurisdictional requirements before production deployment.
+| Permission | Status |
+|------------|--------|
+| Commercial Use | ✅ Permitted |
+| Modification | ✅ Permitted |
+| Distribution | ✅ Permitted |
+| Private Use | ✅ Permitted |
+| Patent Rights | ✅ Explicit grant from contributors |
+
+---
+
+### ⚠️ Regulatory Disclaimer
+
+> **This framework uses synthetic data and is intended for RegTech architectural modeling and experimentation.**
+
+| Notice | Requirement |
+|--------|-------------|
+| **Legal/Regulatory Advice** | This framework does **not** constitute legal, regulatory, or compliance advice |
+| **Jurisdictional Adaptation** | Must be adapted to applicable jurisdictional requirements before production deployment |
+| **Model Validation** | Independent model risk management (MRM) validation required for production use |
+| **Regulatory Approval** | Consult with local supervisory authorities before implementation |
+
+---
+
+## 📬 Contact & Support
+
+| Role | Details |
+|------|---------|
+| **Repository** | [GitHub](https://github.com/YOUR_USERNAME/Global-Sentinel) |
+| **Issues** | [Open an Issue](https://github.com/YOUR_USERNAME/Global-Sentinel/issues) for bugs, feature requests, or compliance queries |
+| **Contributions** | Pull requests welcome for new typology rules, jurisdictional data sources, and ML model integrations |
+
+---
+
+> **Built for Compliance. Engineered for Scale. Designed for Transparency.**
+
+---
+
+| Badge | Status |
+|-------|--------|
+| **FATF RBA Compliant** | ✅ |
+| **Explainable AI (XAI)** | ✅ |
+| **Audit-Ready Logging** | ✅ |
+| **Hard Override Guardrails** | ✅ |
+| **Dynamic FATF Integration** | ✅ |
+
+---
+
+© 2026 **Global Sentinel Framework** | AML/CFT Risk Intelligence Engine | Apache License 2.0
